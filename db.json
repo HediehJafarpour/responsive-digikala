@@ -1490,17 +1490,17 @@
           "items": [
             {
               "id": 1,
-              "url": "./images/high-sell/1.jpg",
+              "url": "./public/images/high-sell/1.jpg",
               "title": "کنسرو ماهی تون در روغن شیلتون - 180 گرم"
             },
             {
               "id": 2,
-              "url": "./images/high-sell/2.jpg",
+              "url": "./public/images/high-sell/2.jpg",
               "title": "دستمال کاغذی 250 برگ دو لایه تنو مدل 001"
             },
             {
               "id": 3,
-              "url": "./images/high-sell/3.jpg",
+              "url": "./public/images/high-sell/3.jpg",
               "title": "کنسرو ماهی تن در روغن گالکسی - 180 گرم"
             }
           ]
@@ -1509,17 +1509,17 @@
           "items": [
             {
               "id": 4,
-              "url": "./images/high-sell/4.jpg",
+              "url": "./public/images/high-sell/4.jpg",
               "title": "گوشی موبایل نوکیا مدل 106 2023 دو سیم کارت - مونتاژ ایران تحت لیسانس نوکیا "
             },
             {
               "id": 5,
-              "url": "./images/high-sell/5.jpg",
+              "url": "./public/images/high-sell/5.jpg",
               "title": "پودر ماشین لباسشویی سافتلن سری Gold Selection مدل Perfect And Shine مقدار 500 گرم"
             },
             {
               "id": 6,
-              "url": "./images/high-sell/6.jpg",
+              "url": "./public/images/high-sell/6.jpg",
               "title": "مايع ظرفشويی پريل مدل ليمويی وزن  1000 گرم"
             }
           ]
@@ -1528,17 +1528,17 @@
           "items": [
             {
               "id": 7,
-              "url": "./images/high-sell/7.jpg",
+              "url": "./public/images/high-sell/7.jpg",
               "title": "روغن مایع آفتابگردان حاوی ویتامین دی و ای لادن - 1.35 کیلوگرم"
             },
             {
               "id": 8,
-              "url": "./images/high-sell/8.jpg",
+              "url": "./public/images/high-sell/8.jpg",
               "title": "گوشی موبایل شیائومی مدل Redmi Note 13 4G دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت"
             },
             {
               "id": 9,
-              "url": "./images/high-sell/9.jpg",
+              "url": "./public/images/high-sell/9.jpg",
               "title": "صابون گلنار مدل روغن نارگیل بسته 6 عددی"
             }
           ]
@@ -1547,17 +1547,17 @@
           "items": [
             {
               "id": 10,
-              "url": "./images/high-sell/10.jpg",
+              "url": "./public/images/high-sell/10.jpg",
               "title": "آب معدنی میوا - 1.5 لیتر بسته 6 عددی"
             },
             {
               "id": 11,
-              "url": "./images/high-sell/11.jpg",
+              "url": "./public/images/high-sell/11.jpg",
               "title": "پوشک مولفیکس مدل 001 سایز 4 بسته 62 عددی "
             },
             {
               "id": 12,
-              "url": "./images/high-sell/12.jpg",
+              "url": "./public/images/high-sell/12.jpg",
               "title": "کنسرو ماهی تون در روغن پرسیس - 180 گرم "
             }
           ]
@@ -1566,17 +1566,17 @@
           "items": [
             {
               "id": 13,
-              "url": "./images/high-sell/13.jpg",
+              "url": "./public/images/high-sell/13.jpg",
               "title": "نوار بهداشتی پنبه ریز مدل لطیف سایز L ضخیم بسته 10 عددی"
             },
             {
               "id": 14,
-              "url": "./images/high-sell/14.jpg",
+              "url": "./public/images/high-sell/14.jpg",
               "title": "پنیر فتا دوشه هراز - 400 گرم"
             },
             {
               "id": 15,
-              "url": "./images/high-sell/15.jpg",
+              "url": "./public/images/high-sell/15.jpg",
               "title": "مرغ کامل سمین - 1300 گرم"
             }
           ]
@@ -1585,17 +1585,17 @@
           "items": [
             {
               "id": 16,
-              "url": "./images/high-sell/16.jpg",
+              "url": "./public/images/high-sell/16.jpg",
               "title": "پنیر سفید ایرانی پگاه - 400 گرم"
             },
             {
               "id": 17,
-              "url": "./images/high-sell/17.jpg",
+              "url": "./public/images/high-sell/17.jpg",
               "title": "هدفون بلوتوثی انکر مدل SoundCore R50i A3949"
             },
             {
               "id": 18,
-              "url": "./images/high-sell/18.jpg",
+              "url": "./public/images/high-sell/18.jpg",
               "title": "اسپاگتی قطر 1.2 زر ماکارون مقدار 700 گرم"
             }
           ]
@@ -1609,17 +1609,17 @@
           "items": [
             {
               "id": 1,
-              "url": "./images/high-sell/hotsell/1.jpg",
+              "url": "./public/images/high-sell/hotsell/1.jpg",
               "title": "کنسرو ماهی تون در روغن شیلتون - 180 گرم"
             },
             {
               "id": 2,
-              "url": "./images/high-sell/hotsell/2.jpg",
+              "url": "./public/images/high-sell/hotsell/2.jpg",
               "title": "دستمال کاغذی 250 برگ دو لایه تنو مدل 001"
             },
             {
               "id": 3,
-              "url": "./images/high-sell/hotsell/3.jpg",
+              "url": "./public/images/high-sell/hotsell/3.jpg",
               "title": "کنسرو ماهی تن در روغن گالکسی - 180 گرم"
             }
           ]
@@ -1628,17 +1628,17 @@
           "items": [
             {
               "id": 4,
-              "url": "./images/high-sell/hotsell/4.jpg",
+              "url": "./public/images/high-sell/hotsell/4.jpg",
               "title": "گوشی موبایل نوکیا مدل 106 2023 دو سیم کارت - مونتاژ ایران تحت لیسانس نوکیا "
             },
             {
               "id": 5,
-              "url": "./images/high-sell/hotsell/5.jpg",
+              "url": "./public/images/high-sell/hotsell/5.jpg",
               "title": "پودر ماشین لباسشویی سافتلن سری Gold Selection مدل Perfect And Shine مقدار 500 گرم"
             },
             {
               "id": 6,
-              "url": "./images/high-sell/hotsell/6.jpg",
+              "url": "./public/images/high-sell/hotsell/6.jpg",
               "title": "مايع ظرفشويی پريل مدل ليمويی وزن  1000 گرم"
             }
           ]
@@ -1647,17 +1647,17 @@
           "items": [
             {
               "id": 7,
-              "url": "./images/high-sell/hotsell/7.jpg",
+              "url": "./public/images/high-sell/hotsell/7.jpg",
               "title": "روغن مایع آفتابگردان حاوی ویتامین دی و ای لادن - 1.35 کیلوگرم"
             },
             {
               "id": 8,
-              "url": "./images/high-sell/hotsell/8.jpg",
+              "url": "./public/images/high-sell/hotsell/8.jpg",
               "title": "گوشی موبایل شیائومی مدل Redmi Note 13 4G دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت"
             },
             {
               "id": 9,
-              "url": "./images/high-sell/hotsell/9.jpg",
+              "url": "./public/images/high-sell/hotsell/9.jpg",
               "title": "صابون گلنار مدل روغن نارگیل بسته 6 عددی"
             }
           ]
@@ -1666,17 +1666,17 @@
           "items": [
             {
               "id": 10,
-              "url": "./images/high-sell/hotsell/10.jpg",
+              "url": "./public/images/high-sell/hotsell/10.jpg",
               "title": "آب معدنی میوا - 1.5 لیتر بسته 6 عددی"
             },
             {
               "id": 11,
-              "url": "./images/high-sell/hotsell/11.jpg",
+              "url": "./public/images/high-sell/hotsell/11.jpg",
               "title": "پوشک مولفیکس مدل 001 سایز 4 بسته 62 عددی "
             },
             {
               "id": 12,
-              "url": "./images/high-sell/hotsell/12.jpg",
+              "url": "./public/images/high-sell/hotsell/12.jpg",
               "title": "کنسرو ماهی تون در روغن پرسیس - 180 گرم "
             }
           ]
@@ -1685,17 +1685,17 @@
           "items": [
             {
               "id": 13,
-              "url": "./images/high-sell/13.jpg",
+              "url": "./public/images/high-sell/13.jpg",
               "title": "نوار بهداشتی پنبه ریز مدل لطیف سایز L ضخیم بسته 10 عددی"
             },
             {
               "id": 14,
-              "url": "./images/high-sell/14.jpg",
+              "url": "./public/images/high-sell/14.jpg",
               "title": "پنیر فتا دوشه هراز - 400 گرم"
             },
             {
               "id": 15,
-              "url": "./images/high-sell/15.jpg",
+              "url": "./public/images/high-sell/15.jpg",
               "title": "مرغ کامل سمین - 1300 گرم"
             }
           ]
@@ -1704,17 +1704,17 @@
           "items": [
             {
               "id": 16,
-              "url": "./images/high-sell/16.jpg",
+              "url": "./public/images/high-sell/16.jpg",
               "title": "پنیر سفید ایرانی پگاه - 400 گرم"
             },
             {
               "id": 17,
-              "url": "./images/high-sell/17.jpg",
+              "url": "./public/images/high-sell/17.jpg",
               "title": "هدفون بلوتوثی انکر مدل SoundCore R50i A3949"
             },
             {
               "id": 18,
-              "url": "./images/high-sell/18.jpg",
+              "url": "./public/images/high-sell/18.jpg",
               "title": "اسپاگتی قطر 1.2 زر ماکارون مقدار 700 گرم"
             }
           ]
