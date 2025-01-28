@@ -1,0 +1,1725 @@
+{
+  "headerbottommenu": [
+    {
+      "id": 1,
+      "name": "شگفت انگیز ها",
+      "link": "https://www.digikala.com/incredibles/",
+      "src": "./public/images/svg-header/header_amazing.svg"
+    },
+    {
+      "id": 2,
+      "name": "سوپرمارکت",
+      "link": "https://www.digikala.com/fresh/",
+      "src": "./public/images/svg-header/header_supermarket.svg"
+    },
+    {
+      "id": 3,
+      "name": "کارت هدیه",
+      "link": "https://www.digikala.com/main/dk-ds-gift-card/",
+      "src": "./public/images/svg-header/header_giftcard.svg"
+    },
+    {
+      "id": 4,
+      "name": "پرفروش ترین ها",
+      "link": "https://www.digikala.com/best-selling/",
+      "src": "./public/images/svg-header/header_bestseler.svg"
+    },
+    {
+      "id": 5,
+      "name": "تخفیف ها و پیشنهادها",
+      "link": "./public/images/svg-header/header_discount.svg",
+      "src": "./public/images/svg-header/header_discount.svg"
+    },
+    {
+      "id": 6,
+      "name": "سوالی دارید؟",
+      "link": "https://www.digikala.com/faq/"
+    },
+    {
+      "id": 7,
+      "name": "در دیجی کالا بفروشید!",
+      "link": "https://www.digikala.com/landings/seller-introduction/"
+    }
+  ],
+  "headersub": [
+    {
+      "id": 1,
+      "name": "موبایل",
+      "link": "./public/images/svg-header/submenu//1.svg",
+      "title": " همه محصولات موبایل",
+      "width": "min-w-[calc(100%-400px)]",
+      "items": [
+        {
+          "boldpoint": "برند های مختلف گوشی موبایل",
+          "subitems": [
+            "گوشی آیفون",
+            "گوشی سامسونگ",
+            "گوشی شیائومی",
+            "گوشی نوکیا",
+            "گوشی ریلمی",
+            "گوشی آنر",
+            "گوشی موتورلا",
+            "گوشی جی پلاس"
+          ]
+        },
+        {
+          "boldpoint": "گوشی بر اساس قیمت",
+          "subitems": [
+            "گوشی ارزان",
+            "گوشی موبایل قسطی",
+            "گوشی تا 2 ملیون",
+            "گوشی تا 5 میلون"
+          ]
+        },
+        {
+          "boldpoint": "گوشی بر اساس عملکرد",
+          "subitems": ["گوشی گیمینگ", "گوشی 5G", "گوشی دکمه ای", "گوشی ضد آب"]
+        },
+        {
+          "boldpoint": "گوشی بر اساس حافظه داخلی",
+          "subitems": [
+            "گوشی 64 گیگابایت",
+            "گوشی 128 گیگابایت",
+            "گوشی 256 گیگابایت",
+            "گوشی 1 ترابایت"
+          ]
+        },
+        {
+          "boldpoint": "برند های برتر",
+          "subitems": ["آنر", "سامسونگ", "اپل", "ریلمی"]
+        },
+        {
+          "boldpoint": "برند های برتر",
+          "subitems": ["آنر", "سامسونگ", "اپل", "ریلمی"]
+        },
+        {
+          "boldpoint": "گوشی بر اساس حافظه داخلی",
+          "subitems": [
+            "گوشی 64 گیگابایت",
+            "گوشی 128 گیگابایت",
+            "گوشی 256 گیگابایت",
+            "گوشی 1 ترابایت"
+          ]
+        },
+        {
+          "boldpoint": "برند های برتر",
+          "subitems": ["آنر", "سامسونگ", "اپل", "ریلمی"]
+        },
+        {
+          "boldpoint": "برند های برتر",
+          "subitems": ["آنر", "سامسونگ", "اپل", "ریلمی"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "کالای دیجیتال",
+      "link": "./public/images/svg-header/submenu/2.svg",
+      "title": " همه محصولات کالای دیجیتال",
+      "width": "min-w-[calc(100%-500px)]",
+      "items": [
+        {
+          "boldpoint": "لپ تاپ",
+          "subitems": [
+            "لپتاپ آیفون",
+            "لپتاپ لنوو",
+            "لپتاپ مک بوک",
+            "لپتاپ راگ",
+            "لپتاپ کاستوم",
+            "لپتاپ استوک"
+          ]
+        },
+        {
+          "boldpoint": "لوازم جانبی لپتاپ",
+          "subitems": ["شارژ لپتاپ", "کیف لپتاپ", "کول پد", "استیکر لپتاپ"]
+        },
+        {
+          "boldpoint": "کنسول بازی",
+          "subitems": [
+            "بازی PS4",
+            "بازی PS5",
+            "بازی PC",
+            "دیسک های بازی",
+            "فرمان بازی",
+            "گوشی ضد آب"
+          ]
+        },
+        {
+          "boldpoint": "کامپیوتر",
+          "subitems": ["all in one", "mini pc", "قلم نوری", "ماوس پد"]
+        },
+        {
+          "boldpoint": "کیبورد",
+          "subitems": ["all in one", "mini pc", "قلم نوری", "ماوس پد"]
+        },
+        {
+          "boldpoint": "کیس کامپیوتر",
+          "subitems": ["آنر", "سامسونگ", "اپل", "ریلمی"]
+        },
+        {
+          "boldpoint": "ماوس",
+          "subitems": ["ماوس گیمینگ", "ماوس بیسیم"]
+        },
+        {
+          "boldpoint": "اسپیکر",
+          "subitems": ["ماوس گیمینگ", "ماوس بیسیم"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "کتاب لوازم تحریر و هنر",
+      "link": "./public/images/svg-header/submenu/لوازم تحریر.svg",
+      "title": " همه محصولات لوازم تحریر",
+      "width": "min-w-[calc(100%-600px)]",
+      "items": [
+        {
+          "boldpoint": "برند های مختلف لوازم تحریر",
+          "subitems": ["کتاب و مجله", "مجلات خارجی", "کتاب چاپی"]
+        },
+        {
+          "boldpoint": "محبوب ترین آثار",
+          "subitems": [
+            "کتاب های سعدی",
+            "کتاب های حافظ",
+            "کتاب های فردوسی",
+            "کتاب های مولانا",
+            "کتاب های فروغ فرخزاد",
+            "کتاب های هوشنگ ابتهاج"
+          ]
+        },
+        {
+          "boldpoint": "محتوای آموزشی",
+          "subitems": [
+            "آموزش موسیقی",
+            "آموزش ورزش و سرگرمی",
+            "آموزش زبان",
+            "آموزش نرم افزار و کامپیوتر"
+          ]
+        },
+        {
+          "boldpoint": "محتوای آموزشی",
+          "subitems": [
+            "آموزش موسیقی",
+            "آموزش ورزش و سرگرمی",
+            "آموزش زبان",
+            "آموزش نرم افزار و کامپیوتر"
+          ]
+        },
+        {
+          "boldpoint": "محتوای آموزشی",
+          "subitems": [
+            "آموزش موسیقی",
+            "آموزش ورزش و سرگرمی",
+            "آموزش زبان",
+            "آموزش نرم افزار و کامپیوتر"
+          ]
+        },
+        {
+          "boldpoint": "محتوای آموزشی",
+          "subitems": [
+            "آموزش موسیقی",
+            "آموزش ورزش و سرگرمی",
+            "آموزش زبان",
+            "آموزش نرم افزار و کامپیوتر"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "خانه و آشپزخانه",
+      "link": "./public/images/svg-header/submenu/خانه و آشپزخانه.svg",
+      "title": " همه محصولات کالای خانه و آشپزخانه",
+      "width": "min-w-[calc(100%-500px)]",
+      "items": [
+        {
+          "boldpoint": "ظروف پخت وپز",
+          "subitems": ["قابلمه و تابه", "زودپز", "سرویس پخت و پز"]
+        },
+        {
+          "boldpoint": "ابزار آشپزی",
+          "subitems": [
+            "ست کفگیر ملاقه",
+            "چاقو",
+            "صافی",
+            "گردو شکن",
+            "ظرف و قالب یخ",
+            "فندک آشپزخانه",
+            "ترازو آشپزخانه"
+          ]
+        },
+        {
+          "boldpoint": "کنسول بازی",
+          "subitems": [
+            "بازی PS4",
+            "بازی PS5",
+            "بازی PC",
+            "دیسک های بازی",
+            "فرمان بازی",
+            "گوشی ضد آب"
+          ]
+        },
+        {
+          "boldpoint": "کامپیوتر",
+          "subitems": ["all in one", "mini pc", "قلم نوری", "ماوس پد"]
+        },
+        {
+          "boldpoint": "کیبورد",
+          "subitems": ["all in one", "mini pc", "قلم نوری", "ماوس پد"]
+        },
+        {
+          "boldpoint": "کیس کامپیوتر",
+          "subitems": ["آنر", "سامسونگ", "اپل", "ریلمی"]
+        },
+        {
+          "boldpoint": "ماوس",
+          "subitems": ["ماوس گیمینگ", "ماوس بیسیم"]
+        },
+        {
+          "boldpoint": "اسپیکر",
+          "subitems": ["ماوس گیمینگ", "ماوس بیسیم"]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "آرایشی بهداشتی",
+      "link": "./public/images/svg-header/submenu/آرایش.svg",
+      "title": " همه محصولات آرایش",
+      "width": "min-w-[calc(100%-500px)]",
+      "items": [
+        {
+          "boldpoint": "برند های مختلف گوشی موبایل",
+          "subitems": [
+            "گوشی آیفون",
+            "گوشی سامسونگ",
+            "گوشی شیائومی",
+            "گوشی نوکیا",
+            "گوشی ریلمی",
+            "گوشی آنر",
+            "گوشی موتورلا",
+            "گوشی جی پلاس"
+          ]
+        },
+        {
+          "boldpoint": "گوشی بر اساس قیمت",
+          "subitems": [
+            "گوشی ارزان",
+            "گوشی موبایل قسطی",
+            "گوشی تا 2 ملیون",
+            "گوشی تا 5 میلون"
+          ]
+        },
+        {
+          "boldpoint": "گوشی بر اساس عملکرد",
+          "subitems": ["گوشی گیمینگ", "گوشی 5G", "گوشی دکمه ای", "گوشی ضد آب"]
+        },
+        {
+          "boldpoint": "گوشی بر اساس حافظه داخلی",
+          "subitems": [
+            "گوشی 64 گیگابایت",
+            "گوشی 128 گیگابایت",
+            "گوشی 256 گیگابایت",
+            "گوشی 1 ترابایت"
+          ]
+        },
+        {
+          "boldpoint": "برند های برتر",
+          "subitems": ["آنر", "سامسونگ", "اپل", "ریلمی"]
+        },
+        {
+          "boldpoint": "برند های برتر",
+          "subitems": ["آنر", "سامسونگ", "اپل", "ریلمی"]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "خودرو و موتورسیکلت",
+      "link": "./public/images/svg-header/submenu/خودرو.svg",
+      "title": " همه محصولات خودرو و موتور سیکلت",
+      "width": "min-w-[calc(100%-500px)]",
+      "items": [
+        {
+          "boldpoint": "لپ تاپ",
+          "subitems": [
+            "لپتاپ آیفون",
+            "لپتاپ لنوو",
+            "لپتاپ مک بوک",
+            "لپتاپ راگ",
+            "لپتاپ کاستوم",
+            "لپتاپ استوک"
+          ]
+        },
+        {
+          "boldpoint": "لوازم جانبی لپتاپ",
+          "subitems": ["شارژ لپتاپ", "کیف لپتاپ", "کول پد", "استیکر لپتاپ"]
+        },
+        {
+          "boldpoint": "کنسول بازی",
+          "subitems": [
+            "بازی PS4",
+            "بازی PS5",
+            "بازی PC",
+            "دیسک های بازی",
+            "فرمان بازی",
+            "گوشی ضد آب"
+          ]
+        },
+        {
+          "boldpoint": "کامپیوتر",
+          "subitems": ["all in one", "mini pc", "قلم نوری", "ماوس پد"]
+        },
+        {
+          "boldpoint": "کیبورد",
+          "subitems": ["all in one", "mini pc", "قلم نوری", "ماوس پد"]
+        },
+        {
+          "boldpoint": "کیس کامپیوتر",
+          "subitems": ["آنر", "سامسونگ", "اپل", "ریلمی"]
+        },
+        {
+          "boldpoint": "ماوس",
+          "subitems": ["ماوس گیمینگ", "ماوس بیسیم"]
+        },
+        {
+          "boldpoint": "اسپیکر",
+          "subitems": ["ماوس گیمینگ", "ماوس بیسیم"]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "لوازم خانگی برقی",
+      "link": "./public/images/svg-header/submenu/لوازم خانه برقی.svg",
+      "title": " همه محصولات لوازم خانگی برقی",
+      "width": "min-w-[calc(100%-600px)]",
+      "items": [
+        {
+          "boldpoint": "برند های مختلف لوازم تحریر",
+          "subitems": ["کتاب و مجله", "مجلات خارجی", "کتاب چاپی"]
+        },
+        {
+          "boldpoint": "محبوب ترین آثار",
+          "subitems": [
+            "کتاب های سعدی",
+            "کتاب های حافظ",
+            "کتاب های فردوسی",
+            "کتاب های مولانا",
+            "کتاب های فروغ فرخزاد",
+            "کتاب های هوشنگ ابتهاج"
+          ]
+        },
+        {
+          "boldpoint": "محتوای آموزشی",
+          "subitems": [
+            "آموزش موسیقی",
+            "آموزش ورزش و سرگرمی",
+            "آموزش زبان",
+            "آموزش نرم افزار و کامپیوتر"
+          ]
+        },
+        {
+          "boldpoint": "محتوای آموزشی",
+          "subitems": [
+            "آموزش موسیقی",
+            "آموزش ورزش و سرگرمی",
+            "آموزش زبان",
+            "آموزش نرم افزار و کامپیوتر"
+          ]
+        },
+        {
+          "boldpoint": "محتوای آموزشی",
+          "subitems": [
+            "آموزش موسیقی",
+            "آموزش ورزش و سرگرمی",
+            "آموزش زبان",
+            "آموزش نرم افزار و کامپیوتر"
+          ]
+        },
+        {
+          "boldpoint": "محتوای آموزشی",
+          "subitems": [
+            "آموزش موسیقی",
+            "آموزش ورزش و سرگرمی",
+            "آموزش زبان",
+            "آموزش نرم افزار و کامپیوتر"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "ابزار آلات و تجهیزات",
+      "link": "./public/images/svg-header/submenu/ابزارالات.svg",
+      "title": " همه محصولات ابزار آلات و تجهیزات",
+      "width": "min-w-[calc(100%-300px)]",
+      "items": [
+        {
+          "boldpoint": "ظروف پخت وپز",
+          "subitems": ["قابلمه و تابه", "زودپز", "سرویس پخت و پز"]
+        },
+        {
+          "boldpoint": "ابزار آشپزی",
+          "subitems": [
+            "ست کفگیر ملاقه",
+            "چاقو",
+            "صافی",
+            "گردو شکن",
+            "ظرف و قالب یخ",
+            "فندک آشپزخانه",
+            "ترازو آشپزخانه"
+          ]
+        },
+        {
+          "boldpoint": "کنسول بازی",
+          "subitems": [
+            "بازی PS4",
+            "بازی PS5",
+            "بازی PC",
+            "دیسک های بازی",
+            "فرمان بازی",
+            "گوشی ضد آب"
+          ]
+        },
+        {
+          "boldpoint": "کامپیوتر",
+          "subitems": ["all in one", "mini pc", "قلم نوری", "ماوس پد"]
+        },
+        {
+          "boldpoint": "کیبورد",
+          "subitems": ["all in one", "mini pc", "قلم نوری", "ماوس پد"]
+        },
+        {
+          "boldpoint": "کیس کامپیوتر",
+          "subitems": ["آنر", "سامسونگ", "اپل", "ریلمی"]
+        },
+        {
+          "boldpoint": "ماوس",
+          "subitems": ["ماوس گیمینگ", "ماوس بیسیم"]
+        },
+        {
+          "boldpoint": "اسپیکر",
+          "subitems": ["ماوس گیمینگ", "ماوس بیسیم"]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "مد و پوشاک",
+      "link": "./public/images/svg-header/submenu/مد و پوشاک.svg",
+      "title": "همه محصولات مد و پوشاک",
+      "width": "min-w-[calc(100%-500px)]",
+      "items": [
+        {
+          "boldpoint": "لپ تاپ",
+          "subitems": [
+            "لپتاپ آیفون",
+            "لپتاپ لنوو",
+            "لپتاپ مک بوک",
+            "لپتاپ راگ",
+            "لپتاپ کاستوم",
+            "لپتاپ استوک"
+          ]
+        },
+        {
+          "boldpoint": "لوازم جانبی لپتاپ",
+          "subitems": ["شارژ لپتاپ", "کیف لپتاپ", "کول پد", "استیکر لپتاپ"]
+        },
+        {
+          "boldpoint": "کنسول بازی",
+          "subitems": [
+            "بازی PS4",
+            "بازی PS5",
+            "بازی PC",
+            "دیسک های بازی",
+            "فرمان بازی",
+            "گوشی ضد آب"
+          ]
+        },
+        {
+          "boldpoint": "کامپیوتر",
+          "subitems": ["all in one", "mini pc", "قلم نوری", "ماوس پد"]
+        },
+        {
+          "boldpoint": "کیبورد",
+          "subitems": ["all in one", "mini pc", "قلم نوری", "ماوس پد"]
+        },
+        {
+          "boldpoint": "کیس کامپیوتر",
+          "subitems": ["آنر", "سامسونگ", "اپل", "ریلمی"]
+        },
+        {
+          "boldpoint": "ماوس",
+          "subitems": ["ماوس گیمینگ", "ماوس بیسیم"]
+        },
+        {
+          "boldpoint": "اسپیکر",
+          "subitems": ["ماوس گیمینگ", "ماوس بیسیم"]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "طلا و نقره",
+      "link": "./public/images/svg-header/submenu/طلا و نقره.svg",
+      "title": " همه محصولات طلا و نقره",
+      "width": "min-w-[calc(100%-500px)]",
+      "items": [
+        {
+          "boldpoint": "برند های مختلف لوازم تحریر",
+          "subitems": ["کتاب و مجله", "مجلات خارجی", "کتاب چاپی"]
+        },
+        {
+          "boldpoint": "محبوب ترین آثار",
+          "subitems": [
+            "کتاب های سعدی",
+            "کتاب های حافظ",
+            "کتاب های فردوسی",
+            "کتاب های مولانا",
+            "کتاب های فروغ فرخزاد",
+            "کتاب های هوشنگ ابتهاج"
+          ]
+        },
+        {
+          "boldpoint": "محتوای آموزشی",
+          "subitems": [
+            "آموزش موسیقی",
+            "آموزش ورزش و سرگرمی",
+            "آموزش زبان",
+            "آموزش نرم افزار و کامپیوتر"
+          ]
+        },
+        {
+          "boldpoint": "محتوای آموزشی",
+          "subitems": [
+            "آموزش موسیقی",
+            "آموزش ورزش و سرگرمی",
+            "آموزش زبان",
+            "آموزش نرم افزار و کامپیوتر"
+          ]
+        },
+        {
+          "boldpoint": "محتوای آموزشی",
+          "subitems": [
+            "آموزش موسیقی",
+            "آموزش ورزش و سرگرمی",
+            "آموزش زبان",
+            "آموزش نرم افزار و کامپیوتر"
+          ]
+        },
+        {
+          "boldpoint": "محتوای آموزشی",
+          "subitems": [
+            "آموزش موسیقی",
+            "آموزش ورزش و سرگرمی",
+            "آموزش زبان",
+            "آموزش نرم افزار و کامپیوتر"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "تجهیزات پزشکی و سلامت",
+      "link": "./public/images/svg-header/submenu/پزشکی.svg",
+      "title": " همه محصولات کالای پزشکی و سلامت",
+      "width": "min-w-[calc(100%-300px)]",
+      "items": [
+        {
+          "boldpoint": "ظروف پخت وپز",
+          "subitems": ["قابلمه و تابه", "زودپز", "سرویس پخت و پز"]
+        },
+        {
+          "boldpoint": "ابزار آشپزی",
+          "subitems": [
+            "ست کفگیر ملاقه",
+            "چاقو",
+            "صافی",
+            "گردو شکن",
+            "ظرف و قالب یخ",
+            "فندک آشپزخانه",
+            "ترازو آشپزخانه"
+          ]
+        },
+        {
+          "boldpoint": "کنسول بازی",
+          "subitems": [
+            "بازی PS4",
+            "بازی PS5",
+            "بازی PC",
+            "دیسک های بازی",
+            "فرمان بازی",
+            "گوشی ضد آب"
+          ]
+        },
+        {
+          "boldpoint": "کامپیوتر",
+          "subitems": ["all in one", "mini pc", "قلم نوری", "ماوس پد"]
+        },
+        {
+          "boldpoint": "کیبورد",
+          "subitems": ["all in one", "mini pc", "قلم نوری", "ماوس پد"]
+        },
+        {
+          "boldpoint": "کیس کامپیوتر",
+          "subitems": ["آنر", "سامسونگ", "اپل", "ریلمی"]
+        },
+        {
+          "boldpoint": "ماوس",
+          "subitems": ["ماوس گیمینگ", "ماوس بیسیم"]
+        },
+        {
+          "boldpoint": "اسپیکر",
+          "subitems": ["ماوس گیمینگ", "ماوس بیسیم"]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "ورزش و سفر",
+      "link": "./public/images/svg-header/submenu/سفر.svg",
+      "title": " همه محصولات ورزش و سفر",
+      "width": "min-w-[calc(100%-600px)]",
+      "items": [
+        {
+          "boldpoint": "برند های مختلف گوشی موبایل",
+          "subitems": [
+            "گوشی آیفون",
+            "گوشی سامسونگ",
+            "گوشی شیائومی",
+            "گوشی نوکیا",
+            "گوشی ریلمی",
+            "گوشی آنر",
+            "گوشی موتورلا",
+            "گوشی جی پلاس"
+          ]
+        },
+        {
+          "boldpoint": "گوشی بر اساس قیمت",
+          "subitems": [
+            "گوشی ارزان",
+            "گوشی موبایل قسطی",
+            "گوشی تا 2 ملیون",
+            "گوشی تا 5 میلون"
+          ]
+        },
+        {
+          "boldpoint": "گوشی بر اساس عملکرد",
+          "subitems": ["گوشی گیمینگ", "گوشی 5G", "گوشی دکمه ای", "گوشی ضد آب"]
+        },
+        {
+          "boldpoint": "گوشی بر اساس حافظه داخلی",
+          "subitems": [
+            "گوشی 64 گیگابایت",
+            "گوشی 128 گیگابایت",
+            "گوشی 256 گیگابایت",
+            "گوشی 1 ترابایت"
+          ]
+        },
+        {
+          "boldpoint": "برند های برتر",
+          "subitems": ["آنر", "سامسونگ", "اپل", "ریلمی"]
+        },
+        {
+          "boldpoint": "برند های برتر",
+          "subitems": ["آنر", "سامسونگ", "اپل", "ریلمی"]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "کارت هدیه و گیفت کارت",
+      "link": "./public/images/svg-header/submenu/کارت هدیه.svg",
+      "title": " کارت هدیه و گیفت کارت",
+
+      "width": "min-w-[calc(100%-200px)]",
+      "items": [
+        {
+          "boldpoint": "برند های مختلف گوشی موبایل",
+          "subitems": [
+            "گوشی آیفون",
+            "گوشی سامسونگ",
+            "گوشی شیائومی",
+            "گوشی نوکیا",
+            "گوشی ریلمی",
+            "گوشی آنر",
+            "گوشی موتورلا",
+            "گوشی جی پلاس"
+          ]
+        },
+        {
+          "boldpoint": "گوشی بر اساس قیمت",
+          "subitems": [
+            "گوشی ارزان",
+            "گوشی موبایل قسطی",
+            "گوشی تا 2 ملیون",
+            "گوشی تا 5 میلون"
+          ]
+        },
+        {
+          "boldpoint": "گوشی بر اساس عملکرد",
+          "subitems": ["گوشی گیمینگ", "گوشی 5G", "گوشی دکمه ای", "گوشی ضد آب"]
+        },
+        {
+          "boldpoint": "گوشی بر اساس حافظه داخلی",
+          "subitems": [
+            "گوشی 64 گیگابایت",
+            "گوشی 128 گیگابایت",
+            "گوشی 256 گیگابایت",
+            "گوشی 1 ترابایت"
+          ]
+        },
+        {
+          "boldpoint": "برند های برتر",
+          "subitems": ["آنر", "سامسونگ", "اپل", "ریلمی"]
+        },
+        {
+          "boldpoint": "برند های برتر",
+          "subitems": ["آنر", "سامسونگ", "اپل", "ریلمی"]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "کالای خوراکی و اساسی",
+      "link": "./public/images/svg-header/submenu/خوراکی.svg",
+      "title": " همه محصولات کالای خوراکی و اساسی",
+      "width": "min-w-[calc(100%-500px)]",
+      "items": [
+        {
+          "boldpoint": "ظروف پخت وپز",
+          "subitems": ["قابلمه و تابه", "زودپز", "سرویس پخت و پز"]
+        },
+        {
+          "boldpoint": "ابزار آشپزی",
+          "subitems": [
+            "ست کفگیر ملاقه",
+            "چاقو",
+            "صافی",
+            "گردو شکن",
+            "ظرف و قالب یخ",
+            "فندک آشپزخانه",
+            "ترازو آشپزخانه"
+          ]
+        },
+        {
+          "boldpoint": "کنسول بازی",
+          "subitems": [
+            "بازی PS4",
+            "بازی PS5",
+            "بازی PC",
+            "دیسک های بازی",
+            "فرمان بازی",
+            "گوشی ضد آب"
+          ]
+        },
+        {
+          "boldpoint": "کامپیوتر",
+          "subitems": ["all in one", "mini pc", "قلم نوری", "ماوس پد"]
+        },
+        {
+          "boldpoint": "کیبورد",
+          "subitems": ["all in one", "mini pc", "قلم نوری", "ماوس پد"]
+        },
+        {
+          "boldpoint": "کیس کامپیوتر",
+          "subitems": ["آنر", "سامسونگ", "اپل", "ریلمی"]
+        },
+        {
+          "boldpoint": "ماوس",
+          "subitems": ["ماوس گیمینگ", "ماوس بیسیم"]
+        },
+        {
+          "boldpoint": "اسپیکر",
+          "subitems": ["ماوس گیمینگ", "ماوس بیسیم"]
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "اسباب بازی کودک و نوزاد",
+      "link": "./public/images/svg-header/submenu/کودک.svg",
+      "title": " همه محصولات اسباب بازی کودک و نوزاد",
+      "width": "min-w-[calc(100%-400px)]",
+      "items": [
+        {
+          "boldpoint": "لپ تاپ",
+          "subitems": [
+            "لپتاپ آیفون",
+            "لپتاپ لنوو",
+            "لپتاپ مک بوک",
+            "لپتاپ راگ",
+            "لپتاپ کاستوم",
+            "لپتاپ استوک"
+          ]
+        },
+        {
+          "boldpoint": "لوازم جانبی لپتاپ",
+          "subitems": ["شارژ لپتاپ", "کیف لپتاپ", "کول پد", "استیکر لپتاپ"]
+        },
+        {
+          "boldpoint": "کنسول بازی",
+          "subitems": [
+            "بازی PS4",
+            "بازی PS5",
+            "بازی PC",
+            "دیسک های بازی",
+            "فرمان بازی",
+            "گوشی ضد آب"
+          ]
+        },
+        {
+          "boldpoint": "کامپیوتر",
+          "subitems": ["all in one", "mini pc", "قلم نوری", "ماوس پد"]
+        },
+        {
+          "boldpoint": "کیبورد",
+          "subitems": ["all in one", "mini pc", "قلم نوری", "ماوس پد"]
+        },
+        {
+          "boldpoint": "کیس کامپیوتر",
+          "subitems": ["آنر", "سامسونگ", "اپل", "ریلمی"]
+        },
+        {
+          "boldpoint": "ماوس",
+          "subitems": ["ماوس گیمینگ", "ماوس بیسیم"]
+        },
+        {
+          "boldpoint": "اسپیکر",
+          "subitems": ["ماوس گیمینگ", "ماوس بیسیم"]
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "محصولات بومی و محلی",
+      "link": "./public/images/svg-header/submenu/بومی.svg",
+      "title": " همه محصولات محصولات بومی و محلی",
+      "width": "min-w-[calc(100%-300px)]",
+      "items": [
+        {
+          "boldpoint": "لپ تاپ",
+          "subitems": [
+            "لپتاپ آیفون",
+            "لپتاپ لنوو",
+            "لپتاپ مک بوک",
+            "لپتاپ راگ",
+            "لپتاپ کاستوم",
+            "لپتاپ استوک"
+          ]
+        },
+        {
+          "boldpoint": "لوازم جانبی لپتاپ",
+          "subitems": ["شارژ لپتاپ", "کیف لپتاپ", "کول پد", "استیکر لپتاپ"]
+        },
+        {
+          "boldpoint": "کنسول بازی",
+          "subitems": [
+            "بازی PS4",
+            "بازی PS5",
+            "بازی PC",
+            "دیسک های بازی",
+            "فرمان بازی",
+            "گوشی ضد آب"
+          ]
+        },
+        {
+          "boldpoint": "کامپیوتر",
+          "subitems": ["all in one", "mini pc", "قلم نوری", "ماوس پد"]
+        },
+        {
+          "boldpoint": "کیبورد",
+          "subitems": ["all in one", "mini pc", "قلم نوری", "ماوس پد"]
+        },
+        {
+          "boldpoint": "کیس کامپیوتر",
+          "subitems": ["آنر", "سامسونگ", "اپل", "ریلمی"]
+        },
+        {
+          "boldpoint": "ماوس",
+          "subitems": ["ماوس گیمینگ", "ماوس بیسیم"]
+        },
+        {
+          "boldpoint": "اسپیکر",
+          "subitems": ["ماوس گیمینگ", "ماوس بیسیم"]
+        }
+      ]
+    }
+  ],
+  "icon": [
+    {
+      "id": 1,
+      "name": "سوپرمارکت دیجی کالا",
+      "link": "./public/images/icon/1.png"
+    },
+    { "id": 2, "name": "دریافت وام", "link": "./public/images/icon/2.png" },
+    {
+      "id": 3,
+      "name": "خرید طلای فیزیکی",
+      "link": "./public/images/icon/3.png"
+    },
+    {
+      "id": 4,
+      "name": "خرید طلای دیجیتال",
+      "link": "./public/images/icon/4.png"
+    },
+    {
+      "id": 5,
+      "name": "تخفیف موبایل کارکرده",
+      "link": "./public/images/icon/5.png"
+    },
+    { "id": 6, "name": "پلاس", "link": "./public/images/icon/6.png" },
+    {
+      "id": 7,
+      "name": "بهترین های سامسونگ",
+      "link": "./public/images/icon/7.png"
+    },
+    { "id": 8, "name": "خرید چکی", "link": "./public/images/icon/8.png" },
+    { "id": 9, "name": "خونه مینیمال", "link": "./public/images/icon/9.png" },
+    { "id": 10, "name": "بیشتر", "link": "./public/images/icon/10.png" }
+  ],
+  "story": [
+    { "id": 1, "name": "فیچت قفلی", "link": "./public/images/story/1.jpg" },
+    { "id": 3, "name": "اتو مو رومئو", "link": "./public/images/story/3.jpg" },
+    {
+      "id": 2,
+      "name": "بررسی کوتاه واچ سامسونگ",
+      "link": "./public/images/story/2.jpg"
+    },
+    { "id": 4, "name": "شرلوک 13", "link": "./public/images/story/4.jpg" },
+    {
+      "id": 5,
+      "name": "یه کیف اقتصادی برای خانم ها",
+      "link": "./public/images/story/5.jpg"
+    },
+    { "id": 6, "name": "یه پکیج کامل", "link": "./public/images/story/6.jpg" },
+    {
+      "id": 7,
+      "name": "این چراغ همه جا به کارت میاد",
+      "link": "./public/images/story/7.jpg"
+    },
+    { "id": 8, "name": "کیوت ترین", "link": "./public/images/story/8.jpg" },
+    {
+      "id": 9,
+      "name": "دزدیدن دوچرخه!",
+      "link": "./public/images/story/9.jpg"
+    },
+    { "id": 10, "name": "خودکار", "link": "./public/images/story/10.jpg" },
+    {
+      "id": 11,
+      "name": "هم عاشقانه هم فلسفی",
+      "link": "./public/images/story/11.jpg"
+    },
+    {
+      "id": 12,
+      "name": "پرایم بهتره یا کاله . داینامین",
+      "link": "./public/images/story/12.jpg"
+    },
+    {
+      "id": 13,
+      "name": "هدفت از طناب زدن چیه؟",
+      "link": "./public/images/story/13.jpg"
+    },
+    {
+      "id": 14,
+      "name": "گیتار برای شروع",
+      "link": "./public/images/story/14.jpg"
+    },
+    {
+      "id": 15,
+      "name": "بزن به دل طبیعت",
+      "link": "./public/images/story/15.jpg"
+    }
+  ],
+  "ads": [
+    { "id": 1, "link": "./public/images/ads/1/1.jpg" },
+    { "id": 2, "link": "./public/images/ads/1/2.jpg" },
+    { "id": 3, "link": "./public/images/ads/1/3.jpg" },
+    { "id": 4, "link": "./public/images/ads/1/4.jpg" }
+  ],
+  "ads2": [
+    { "id": 1, "link": "./public/images/ads/2/5.jpg" },
+    { "id": 2, "link": "./public/images/ads/2/6.jpg" },
+    { "id": 3, "link": "./public/images/ads/2/7.jpg" },
+    { "id": 4, "link": "./public/images/ads/2/8.jpg" }
+  ],
+  "ads3": [
+    { "id": 1, "link": "./public/images/ads/3/2.jpg" },
+    { "id": 2, "link": "./public/images/ads/3/1.jpg" }
+  ],
+  "ads4": [
+    { "id": 1, "link": "./public/images/ads/4/3.jpg" },
+    { "id": 2, "link": "./public/images/ads/4/4.jpg" }
+  ],
+  "category": [
+    { "id": 1, "name": "موبایل", "link": "./public/images/category/1.png" },
+    {
+      "id": 2,
+      "name": "کالای دیجیتال",
+      "link": "./public/images/category/2.png"
+    },
+    {
+      "id": 3,
+      "name": "خانه و آشپزخانه",
+      "link": "./public/images/category/3.png"
+    },
+    {
+      "id": 4,
+      "name": "آرایشی بهداشتی",
+      "link": "./public/images/category/4.png"
+    },
+    {
+      "id": 5,
+      "name": "خودرو و موتورسیکلت",
+      "link": "./public/images/category/5.png"
+    },
+    {
+      "id": 6,
+      "name": "لوازم خانگی برقی",
+      "link": "./public/images/category/6.png"
+    },
+    { "id": 7, "name": "مد و پوشاک", "link": "./public/images/category/7.png" },
+    { "id": 8, "name": "طلا و نقره", "link": "./public/images/category/8.png" },
+    {
+      "id": 9,
+      "name": "تجهیزات پزشکی و سلامت",
+      "link": "./public/images/category/9.png"
+    },
+    {
+      "id": 10,
+      "name": "ابزارآلات و تجهیزات",
+      "link": "./public/images/category/10.png"
+    },
+    {
+      "id": 11,
+      "name": "کتاب لوازم تحریر و هنر",
+      "link": "./public/images/category/11.png"
+    },
+    {
+      "id": 12,
+      "name": "ورزش و سفر",
+      "link": "./public/images/category/12.png"
+    },
+    {
+      "id": 13,
+      "name": "کارت هدیه و گیفت کارت",
+      "link": "./public/images/category/13.png"
+    },
+    {
+      "id": 14,
+      "name": "کالای خوراکی و اساسی",
+      "link": "./public/images/category/14.png"
+    },
+    {
+      "id": 15,
+      "name": "اسباب بازی کودک نوزاد",
+      "link": "./public/images/category/15.png"
+    },
+    {
+      "id": 16,
+      "name": "محصولات بومی و محلی",
+      "link": "./public/images/category/16.png"
+    }
+  ],
+  "brands": [
+    { "id": 1, "link": "./public/images/brands/1.jpg" },
+    { "id": 2, "link": "./public/images/brands/2.jpg" },
+    { "id": 3, "link": "./public/images/brands/3.jpg" },
+    { "id": 4, "link": "./public/images/brands/4.jpg" },
+    { "id": 5, "link": "./public/images/brands/5.jpg" },
+    { "id": 6, "link": "./public/images/brands/6.jpg" },
+    { "id": 7, "link": "./public/images/brands/7.jpg" },
+    { "id": 8, "link": "./public/images/brands/8.jpg" },
+    { "id": 9, "link": "./public/images/brands/9.jpg" },
+    { "id": 10, "link": "./public/images/brands/10.jpg" },
+    { "id": 11, "link": "./public/images/brands/11.jpg" },
+    { "id": 12, "link": "./public/images/brands/12.jpg" },
+    { "id": 13, "link": "./public/images/brands/13.jpg" },
+    { "id": 14, "link": "./public/images/brands/14.jpg" },
+    { "id": 15, "link": "./public/images/brands/15.jpg" }
+  ],
+  "Adgrid": [
+    {
+      "id": "گوشی موبایل",
+      "pic": [
+        { "id": 1, "link": "./public/images/adgrid/1/1.jpg" },
+        { "id": 2, "link": "./public/images/adgrid/1/2.jpg" },
+        { "id": 3, "link": "./public/images/adgrid/1/3.jpg" },
+        { "id": 4, "link": "./public/images/adgrid/1/4.jpg" }
+      ]
+    },
+    {
+      "id": "کیف و کاور گوشی",
+      "pic": [
+        { "id": 1, "link": "./public/images/adgrid/1/5.jpg" },
+        { "id": 2, "link": "./public/images/adgrid/1/6.jpg" },
+        { "id": 3, "link": "./public/images/adgrid/1/7.jpg" },
+        { "id": 4, "link": "./public/images/adgrid/1/8.jpg" }
+      ]
+    },
+    {
+      "id": "هدفون هدست وهندفری",
+      "pic": [
+        { "id": 1, "link": "./public/images/adgrid/1/9.jpg" },
+        { "id": 2, "link": "./public/images/adgrid/1/10.jpg" },
+        { "id": 3, "link": "./public/images/adgrid/1/11.jpg" },
+        { "id": 4, "link": "./public/images/adgrid/1/12.jpg" }
+      ]
+    },
+    {
+      "id": "ساعت هوشمند",
+      "pic": [
+        { "id": 1, "link": "./public/images/adgrid/1/13.jpg" },
+        { "id": 2, "link": "./public/images/adgrid/1/14.jpg" },
+        { "id": 3, "link": "./public/images/adgrid/1/15.jpg" },
+        { "id": 4, "link": "./public/images/adgrid/1/16.jpg" }
+      ]
+    }
+  ],
+  "Adgrid2": [
+    {
+      "id": "لپ تاپ و الترابوک",
+      "pic": [
+        { "id": 1, "link": "./public/images/adgrid/2/1.jpg" },
+        { "id": 2, "link": "./public/images/adgrid/2/2.jpg" },
+        { "id": 3, "link": "./public/images/adgrid/2/3.jpg" },
+        { "id": 4, "link": "./public/images/adgrid/2/4.jpg" }
+      ]
+    },
+    {
+      "id": "سایر لوازم خودرو",
+      "pic": [
+        { "id": 1, "link": "./public/images/adgrid/2/5.jpg" },
+        { "id": 2, "link": "./public/images/adgrid/2/6.jpg" },
+        { "id": 3, "link": "./public/images/adgrid/2/7.jpg" },
+        { "id": 4, "link": "./public/images/adgrid/2/8.jpg" }
+      ]
+    },
+    {
+      "id": "ساعت عقربه ای مردانه",
+      "pic": [
+        { "id": 1, "link": "./public/images/adgrid/2/9.jpg" },
+        { "id": 2, "link": "./public/images/adgrid/2/10.jpg" },
+        { "id": 3, "link": "./public/images/adgrid/2/11.jpg" },
+        { "id": 4, "link": "./public/images/adgrid/2/12.jpg" }
+      ]
+    },
+    {
+      "id": "اسپیکر (بلندگو)",
+      "pic": [
+        { "id": 1, "link": "./public/images/adgrid/2/13.jpg" },
+        { "id": 2, "link": "./public/images/adgrid/2/14.jpg" },
+        { "id": 3, "link": "./public/images/adgrid/2/15.jpg" },
+        { "id": 4, "link": "./public/images/adgrid/2/16.jpg" }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": 1,
+      "text": "تکنیک های مراقبت از چاقو های آشپزخانه",
+      "link": "./public/images/reading/1.jpg"
+    },
+    {
+      "id": 2,
+      "text": "طرز تهیه خورش بزقرمه کرمانی به روش کاملا محلی",
+      "link": "./public/images/reading/2.jpg"
+    },
+    {
+      "id": 3,
+      "text": "بهترین قرص برای درمان عفونت رحم و مثانه",
+      "link": "./public/images/reading/3.jpg"
+    },
+    {
+      "id": 4,
+      "text": "بهترین گوشی های بازار از نظر دوربین در دیجی کالا",
+      "link": "./public/images/reading/4.jpg"
+    }
+  ],
+  "amazing": [
+    {
+      "id": 1,
+      "name": "گوشی موبایل شیائومی مدل Redmi A3x دو سیم کارت ظرفیت 128 گیگابایت و رم 4 گیگابایت",
+      "link": "./public/images/incredible/1.jpg",
+      "discount": 2,
+      "price": "42,999,000",
+      "realprice": "43,700,000"
+    },
+    {
+      "id": 2,
+      "name": "هدفون بلوتوثی لوکسار مدل A9 Pro",
+      "link": "./public/images/incredible/2.jpg",
+      "discount": 35,
+      "price": "1,299,000",
+      "realprice": "2,000,000"
+    },
+    {
+      "id": 3,
+      "name": "هدفون بلوتوثی سونی مدل WF-C510",
+      "link": "./public/images/incredible/3.jpg",
+      "discount": 26,
+      "price": "3,699,000",
+      "realprice": "5,000,000"
+    },
+    {
+      "id": 4,
+      "name": "ساعت هوشمند ورنا مدل W49 Ultra with airpod به همراه هندزفری بیسیم",
+      "link": "./public/images/incredible/4.jpg",
+      "discount": 35,
+      "price": "1,190,000",
+      "realprice": "1,700,000"
+    },
+    {
+      "id": 5,
+      "name": "ساعت هوشمند ورنا مدل W49 Ultra with airpod به همراه هندزفری بیسیم",
+      "link": "./public/images/incredible/5.jpg",
+      "discount": 31,
+      "price": "849,000",
+      "realprice": "1,500,000"
+    },
+    {
+      "id": 6,
+      "name": "لپ تاپ 15.3 اینچی اپل مدل MacBook Air MRYQ3 2024 LLA-M3-8GB RAM-512GB SSD",
+      "link": "./public/images/incredible/6.jpg",
+      "discount": 3,
+      "price": "101,190,000",
+      "realprice": "105,700,000"
+    },
+    {
+      "id": 7,
+      "name": "لپ تاپ 15.6 اینچی لنوو مدل LOQ 15IRX9-i7 13650HX-24GB DDR5 4800MHz-512GB SSD-RTX4060-FHD",
+      "link": "./public/images/incredible/7.jpg",
+      "discount": 2,
+      "price": "81,699,000",
+      "realprice": "83,000,000"
+    },
+    {
+      "id": 8,
+      "name": "یخچال فریزر خودرو ایستکول مدل 4040",
+      "link": "./public/images/incredible/8.jpg",
+      "discount": 26,
+      "price": "15,190,000",
+      "realprice": "21,700,000"
+    },
+    {
+      "id": 9,
+      "name": "اسپیکر بلوتوثی قابل حمل هیسکا مدل B65",
+      "link": "./public/images/incredible/9.jpg",
+      "discount": 20,
+      "price": "2,290,000",
+      "realprice": "2,850,000"
+    },
+    {
+      "id": 10,
+      "name": "اسپیکر بلوتوثی هارمن کاردن مدل Aura Studio 4",
+      "link": "./public/images/incredible/10.jpg",
+      "discount": 7,
+      "price": "17,290,000",
+      "realprice": "19,700,000"
+    },
+    {
+      "id": 11,
+      "name": "کرم مرطوب کننده و آبرسان لایت بیوتی مدل آرگان شی باتر حجم 200 میلی لیتر مجموعه 12 عددی",
+      "link": "./public/images/incredible/11.jpg",
+      "discount": 50,
+      "price": "1,190,000",
+      "realprice": "2,700,000"
+    },
+    {
+      "id": 12,
+      "name": "کرم مرطوب‌کننده و آبرسان دست و صورت لافارر مدل 04، مناسب پوست‌‌های حساس، با عصاره پنیرک و آلوئه‌ورا، حاوی ویتامین‌های E و C، آلفا بیزابولول، روغن بادام و زیتون، سدیم هیالورونات، سدیم PCA، ضد التهاب و ضد حساسیت، مناسب استفاده در صبح و شب، 75 میلی‌لیتر",
+      "link": "./public/images/incredible/12.jpg",
+      "discount": 48,
+      "price": "190,000",
+      "realprice": "287,000"
+    }
+  ],
+  "mainAdGrid": [
+    {
+      "id": 1,
+      "name": "گوشی موبایل شیائومی مدل Redmi A3x دو سیم کارت ظرفیت 128 گیگابایت و رم 4 گیگابایت",
+      "link": "./public/images/mainadgrid/1.jpg",
+      "discount": 2,
+      "price": "42,999,000",
+      "realprice": "43,700,000"
+    },
+    {
+      "id": 2,
+      "name": "هدفون بلوتوثی لوکسار مدل A9 Pro",
+      "link": "./public/images/mainadgrid/2.jpg",
+      "discount": 35,
+      "price": "1,299,000",
+      "realprice": "2,000,000"
+    },
+    {
+      "id": 3,
+      "name": "هدفون بلوتوثی سونی مدل WF-C510",
+      "link": "./public/images/mainadgrid/3.jpg",
+      "discount": 26,
+      "price": "3,699,000",
+      "realprice": "5,000,000"
+    },
+    {
+      "id": 4,
+      "name": "ساعت هوشمند ورنا مدل W49 Ultra with airpod به همراه هندزفری بیسیم",
+      "link": "./public/images/mainadgrid/4.jpg",
+      "discount": 35,
+      "price": "1,190,000",
+      "realprice": "1,700,000"
+    },
+    {
+      "id": 5,
+      "name": "ساعت هوشمند ورنا مدل W49 Ultra with airpod به همراه هندزفری بیسیم",
+      "link": "./public/images/mainadgrid/5.jpg",
+      "discount": 31,
+      "price": "849,000",
+      "realprice": "1,500,000"
+    },
+    {
+      "id": 6,
+      "name": "لپ تاپ 15.3 اینچی اپل مدل MacBook Air MRYQ3 2024 LLA-M3-8GB RAM-512GB SSD",
+      "link": "./public/images/mainadgrid/6.jpg",
+      "discount": 3,
+      "price": "101,190,000",
+      "realprice": "105,700,000"
+    },
+    {
+      "id": 7,
+      "name": "لپ تاپ 15.6 اینچی لنوو مدل LOQ 15IRX9-i7 13650HX-24GB DDR5 4800MHz-512GB SSD-RTX4060-FHD",
+      "link": "./public/images/mainadgrid/7.jpg",
+      "discount": 2,
+      "price": "81,699,000",
+      "realprice": "83,000,000"
+    },
+    {
+      "id": 8,
+      "name": "یخچال فریزر خودرو ایستکول مدل 4040",
+      "link": "./public/images/mainadgrid/8.jpg",
+      "discount": 26,
+      "price": "15,190,000",
+      "realprice": "21,700,000"
+    },
+    {
+      "id": 9,
+      "name": "اسپیکر بلوتوثی قابل حمل هیسکا مدل B65",
+      "link": "./public/images/incredible/9.jpg",
+      "discount": 20,
+      "price": "2,290,000",
+      "realprice": "2,850,000"
+    },
+    {
+      "id": 10,
+      "name": "اسپیکر بلوتوثی هارمن کاردن مدل Aura Studio 4",
+      "link": "./public/images/incredible/10.jpg",
+      "discount": 7,
+      "price": "17,290,000",
+      "realprice": "19,700,000"
+    },
+    {
+      "id": 11,
+      "name": "کرم مرطوب کننده و آبرسان لایت بیوتی مدل آرگان شی باتر حجم 200 میلی لیتر مجموعه 12 عددی",
+      "link": "./public/images/incredible/11.jpg",
+      "discount": 50,
+      "price": "1,190,000",
+      "realprice": "2,700,000"
+    },
+    {
+      "id": 12,
+      "name": "کرم مرطوب‌کننده و آبرسان دست و صورت لافارر مدل 04، مناسب پوست‌‌های حساس، با عصاره پنیرک و آلوئه‌ورا، حاوی ویتامین‌های E و C، آلفا بیزابولول، روغن بادام و زیتون، سدیم هیالورونات، سدیم PCA، ضد التهاب و ضد حساسیت، مناسب استفاده در صبح و شب، 75 میلی‌لیتر",
+      "link": "./public/images/incredible/12.jpg",
+      "discount": 48,
+      "price": "190,000",
+      "realprice": "287,000"
+    },
+    {
+      "id": 1,
+      "name": "گوشی موبایل شیائومی مدل Redmi A3x دو سیم کارت ظرفیت 128 گیگابایت و رم 4 گیگابایت",
+      "link": "./public/images/mainadgrid/1.jpg",
+      "discount": 2,
+      "price": "42,999,000",
+      "realprice": "43,700,000"
+    },
+    {
+      "id": 2,
+      "name": "هدفون بلوتوثی لوکسار مدل A9 Pro",
+      "link": "./public/images/mainadgrid/2.jpg",
+      "discount": 35,
+      "price": "1,299,000",
+      "realprice": "2,000,000"
+    },
+    {
+      "id": 3,
+      "name": "هدفون بلوتوثی سونی مدل WF-C510",
+      "link": "./public/images/mainadgrid/3.jpg",
+      "discount": 26,
+      "price": "3,699,000",
+      "realprice": "5,000,000"
+    },
+    {
+      "id": 4,
+      "name": "ساعت هوشمند ورنا مدل W49 Ultra with airpod به همراه هندزفری بیسیم",
+      "link": "./public/images/mainadgrid/4.jpg",
+      "discount": 35,
+      "price": "1,190,000",
+      "realprice": "1,700,000"
+    },
+    {
+      "id": 5,
+      "name": "ساعت هوشمند ورنا مدل W49 Ultra with airpod به همراه هندزفری بیسیم",
+      "link": "./public/images/mainadgrid/5.jpg",
+      "discount": 31,
+      "price": "849,000",
+      "realprice": "1,500,000"
+    },
+    {
+      "id": 6,
+      "name": "لپ تاپ 15.3 اینچی اپل مدل MacBook Air MRYQ3 2024 LLA-M3-8GB RAM-512GB SSD",
+      "link": "./public/images/mainadgrid/6.jpg",
+      "discount": 3,
+      "price": "101,190,000",
+      "realprice": "105,700,000"
+    }
+  ],
+  "highSell": [
+    {
+      "type": "highsell",
+      "items": [
+        {
+          "items": [
+            {
+              "id": 1,
+              "url": "./images/high-sell/1.jpg",
+              "title": "کنسرو ماهی تون در روغن شیلتون - 180 گرم"
+            },
+            {
+              "id": 2,
+              "url": "./images/high-sell/2.jpg",
+              "title": "دستمال کاغذی 250 برگ دو لایه تنو مدل 001"
+            },
+            {
+              "id": 3,
+              "url": "./images/high-sell/3.jpg",
+              "title": "کنسرو ماهی تن در روغن گالکسی - 180 گرم"
+            }
+          ]
+        },
+        {
+          "items": [
+            {
+              "id": 4,
+              "url": "./images/high-sell/4.jpg",
+              "title": "گوشی موبایل نوکیا مدل 106 2023 دو سیم کارت - مونتاژ ایران تحت لیسانس نوکیا "
+            },
+            {
+              "id": 5,
+              "url": "./images/high-sell/5.jpg",
+              "title": "پودر ماشین لباسشویی سافتلن سری Gold Selection مدل Perfect And Shine مقدار 500 گرم"
+            },
+            {
+              "id": 6,
+              "url": "./images/high-sell/6.jpg",
+              "title": "مايع ظرفشويی پريل مدل ليمويی وزن  1000 گرم"
+            }
+          ]
+        },
+        {
+          "items": [
+            {
+              "id": 7,
+              "url": "./images/high-sell/7.jpg",
+              "title": "روغن مایع آفتابگردان حاوی ویتامین دی و ای لادن - 1.35 کیلوگرم"
+            },
+            {
+              "id": 8,
+              "url": "./images/high-sell/8.jpg",
+              "title": "گوشی موبایل شیائومی مدل Redmi Note 13 4G دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت"
+            },
+            {
+              "id": 9,
+              "url": "./images/high-sell/9.jpg",
+              "title": "صابون گلنار مدل روغن نارگیل بسته 6 عددی"
+            }
+          ]
+        },
+        {
+          "items": [
+            {
+              "id": 10,
+              "url": "./images/high-sell/10.jpg",
+              "title": "آب معدنی میوا - 1.5 لیتر بسته 6 عددی"
+            },
+            {
+              "id": 11,
+              "url": "./images/high-sell/11.jpg",
+              "title": "پوشک مولفیکس مدل 001 سایز 4 بسته 62 عددی "
+            },
+            {
+              "id": 12,
+              "url": "./images/high-sell/12.jpg",
+              "title": "کنسرو ماهی تون در روغن پرسیس - 180 گرم "
+            }
+          ]
+        },
+        {
+          "items": [
+            {
+              "id": 13,
+              "url": "./images/high-sell/13.jpg",
+              "title": "نوار بهداشتی پنبه ریز مدل لطیف سایز L ضخیم بسته 10 عددی"
+            },
+            {
+              "id": 14,
+              "url": "./images/high-sell/14.jpg",
+              "title": "پنیر فتا دوشه هراز - 400 گرم"
+            },
+            {
+              "id": 15,
+              "url": "./images/high-sell/15.jpg",
+              "title": "مرغ کامل سمین - 1300 گرم"
+            }
+          ]
+        },
+        {
+          "items": [
+            {
+              "id": 16,
+              "url": "./images/high-sell/16.jpg",
+              "title": "پنیر سفید ایرانی پگاه - 400 گرم"
+            },
+            {
+              "id": 17,
+              "url": "./images/high-sell/17.jpg",
+              "title": "هدفون بلوتوثی انکر مدل SoundCore R50i A3949"
+            },
+            {
+              "id": 18,
+              "url": "./images/high-sell/18.jpg",
+              "title": "اسپاگتی قطر 1.2 زر ماکارون مقدار 700 گرم"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "hotsell",
+      "items": [
+        {
+          "items": [
+            {
+              "id": 1,
+              "url": "./images/high-sell/hotsell/1.jpg",
+              "title": "کنسرو ماهی تون در روغن شیلتون - 180 گرم"
+            },
+            {
+              "id": 2,
+              "url": "./images/high-sell/hotsell/2.jpg",
+              "title": "دستمال کاغذی 250 برگ دو لایه تنو مدل 001"
+            },
+            {
+              "id": 3,
+              "url": "./images/high-sell/hotsell/3.jpg",
+              "title": "کنسرو ماهی تن در روغن گالکسی - 180 گرم"
+            }
+          ]
+        },
+        {
+          "items": [
+            {
+              "id": 4,
+              "url": "./images/high-sell/hotsell/4.jpg",
+              "title": "گوشی موبایل نوکیا مدل 106 2023 دو سیم کارت - مونتاژ ایران تحت لیسانس نوکیا "
+            },
+            {
+              "id": 5,
+              "url": "./images/high-sell/hotsell/5.jpg",
+              "title": "پودر ماشین لباسشویی سافتلن سری Gold Selection مدل Perfect And Shine مقدار 500 گرم"
+            },
+            {
+              "id": 6,
+              "url": "./images/high-sell/hotsell/6.jpg",
+              "title": "مايع ظرفشويی پريل مدل ليمويی وزن  1000 گرم"
+            }
+          ]
+        },
+        {
+          "items": [
+            {
+              "id": 7,
+              "url": "./images/high-sell/hotsell/7.jpg",
+              "title": "روغن مایع آفتابگردان حاوی ویتامین دی و ای لادن - 1.35 کیلوگرم"
+            },
+            {
+              "id": 8,
+              "url": "./images/high-sell/hotsell/8.jpg",
+              "title": "گوشی موبایل شیائومی مدل Redmi Note 13 4G دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت"
+            },
+            {
+              "id": 9,
+              "url": "./images/high-sell/hotsell/9.jpg",
+              "title": "صابون گلنار مدل روغن نارگیل بسته 6 عددی"
+            }
+          ]
+        },
+        {
+          "items": [
+            {
+              "id": 10,
+              "url": "./images/high-sell/hotsell/10.jpg",
+              "title": "آب معدنی میوا - 1.5 لیتر بسته 6 عددی"
+            },
+            {
+              "id": 11,
+              "url": "./images/high-sell/hotsell/11.jpg",
+              "title": "پوشک مولفیکس مدل 001 سایز 4 بسته 62 عددی "
+            },
+            {
+              "id": 12,
+              "url": "./images/high-sell/hotsell/12.jpg",
+              "title": "کنسرو ماهی تون در روغن پرسیس - 180 گرم "
+            }
+          ]
+        },
+        {
+          "items": [
+            {
+              "id": 13,
+              "url": "./images/high-sell/13.jpg",
+              "title": "نوار بهداشتی پنبه ریز مدل لطیف سایز L ضخیم بسته 10 عددی"
+            },
+            {
+              "id": 14,
+              "url": "./images/high-sell/14.jpg",
+              "title": "پنیر فتا دوشه هراز - 400 گرم"
+            },
+            {
+              "id": 15,
+              "url": "./images/high-sell/15.jpg",
+              "title": "مرغ کامل سمین - 1300 گرم"
+            }
+          ]
+        },
+        {
+          "items": [
+            {
+              "id": 16,
+              "url": "./images/high-sell/16.jpg",
+              "title": "پنیر سفید ایرانی پگاه - 400 گرم"
+            },
+            {
+              "id": 17,
+              "url": "./images/high-sell/17.jpg",
+              "title": "هدفون بلوتوثی انکر مدل SoundCore R50i A3949"
+            },
+            {
+              "id": 18,
+              "url": "./images/high-sell/18.jpg",
+              "title": "اسپاگتی قطر 1.2 زر ماکارون مقدار 700 گرم"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+import Adgrid from "./js/Adgrid/adgrid.js";
+import Adgrid2 from "./js/Adgrid/adgrid2.js";
+import mainAdGrid from "./js/Adgrid/mainAdGrid.js";
+import ads from "./js/ads/ads.js";
+import ads2 from "./js/ads/ads2.js";
+import ads3 from "./js/ads/ads3.js";
+import ads4 from "./js/ads/ads4.js";
+import category from "./js/category/categoty.js";
+import icon from "./js/category/icon.js";
+import ToggleFAQ from "./js/footer/list.js";
+import loadCategories from "./js/header/headerMenu.js";
+import reading from "./js/reading/reading.js";
+import storyswiper from "./js/story/story.js"
+import amazing from "./js/swiper/amazing.js";
+import brands from "./js/swiper/brands.js";
+import highSell from "./js/swiper/hightsell.js";
+
+storyswiper();
+ads(); 
+ads2();
+ads3();
+ads4();
+category();
+icon();
+brands();
+Adgrid();
+Adgrid2();
+reading();
+amazing();
+highSell();
+ToggleFAQ();
+loadCategories();
+mainAdGrid();

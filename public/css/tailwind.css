@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: farsi;
+    src: url(/public/fonts/farsi/IRANYekanWeb-Bold.eot);
+    src: url(/public/fonts/farsi/IRANYekanWeb-Bold.ttf);
+    src: url(/public/fonts/farsi/IRANYekanWeb-Bold.woff);
+    src: url(/public/fonts/farsi/IRANYekanWeb-Bold.woff2);
+}
+@font-face {
+    font-family: bnazanin;
+    src: url(/public/fonts/bnazanin/B-NAZANIN.TTF);
+}
+@layer base {
+
+}
+
+/* @layer components {
+    .swiper-wrapper {
+       @apply w-[100%] !max-h-max ease-linear pb-[64px] relative 
+    }
+    .swiper-pagination-bullet {
+        @apply bg-[#4f46e5]
+    }
+} */
+/* 
+@layer utilities {
+    @screen md {
+      .header__bottom__menu {
+        display: flex;
+      }
+    }
+    @screen sm {
+      .header__bottom__menu {
+        display: none;
+      }
+      .header__bottom__location {
+        justify-content: center;
+        width: 100%;
+      }
+    }
+  } */
+
+  

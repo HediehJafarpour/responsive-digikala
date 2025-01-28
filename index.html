@@ -1,0 +1,1421 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/css/main.css" />
+    <link rel="stylesheet" href="./public/css/swiper.css" />
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css" />
+  </head>
+  <body class="">
+    <!-- project -->
+    <!-- wrapper -->
+    <div id="root" class="font-[farsi]">
+      <!-- header -->
+      <header
+        class="w-full sticky absolute top-0 mb-[20px] h-[120px] z-10 bg-[#FFFFFF]"
+      >
+        <div class="w-full object-cover">
+          <img
+            src="./public/images/header/88d19731ab95f1acaf56247cdf8c7a02222b3bac_1733670229.gif"
+            alt=""
+            class="min-h-[50px] object-cover"
+          />
+        </div>
+        <div
+          class="header__center bg-[#FFFFFF] w-full z-30 items-center justify-start mx-auto flex flex-row flex-wrap md:flex-nowrap relative"
+        >
+          <!-- لوگو -->
+          <div
+            class="header__center__logo w-[15%] z-30 h-[70px] bg-[#FFFFFF] hidden lg:flex flex-end justify-center items-center pl-[20px] pt-[5px] md:order-none order-2"
+          >
+            <img
+              class="w-[185px] md:w-[150px]"
+              src="./public/images/mainlogo.svg"
+              alt="لوگو"
+            />
+          </div>
+
+          <!-- فیلد جستجو -->
+          <div
+            class="header__center__search w-full h-[70px] md:w-[60%] z-30 lg:h-full bg-[#fffff] flex items-start font-[farsi] md:order-none order-1 relative"
+          >
+            <div class="relative w-full flex items-start justify-start">
+              <img
+                src="./public/images/mainlogo.svg"
+                alt="لوگو"
+                class="w-[100px] pb-[10px] h-[60px] absolute right-[40px] lg:hidden"
+              />
+              <img
+                class="w-5 h-5 absolute sm:top-[15px] right-[10px] opacity-25"
+                src="./public/images/searchbar/svgexport-2.svg"
+                alt=""
+              />
+              <input
+                id="searchInput"
+                type="text"
+                placeholder="جستجو"
+                class="w-full md:w-[600px] h-[50px] lg:h-[52px] rounded-[100px] lg:rounded-[7px] bg-[#f0f0f1] outline-none border-none pl-[60px] md:pl-[15px] lg:pr-[35px] sm:pr-[150px] text-[#93A9B9] text-[12px]"
+              />
+            </div>
+          </div>
+          <!-- دیو سفید (برای لپ‌تاپ) -->
+          <div
+            id="searchPanelBack"
+            class="absolute top-[70px] right-[0] pr-[50px] w-[98.9vw] h-[calc(90vh-40px)] bg-[#2b2b2baa] z-20 hidden ease-in-out"
+          >
+            <div
+              id="searchPanelDesktop"
+              class="hidden absolute gap-y-[10px] flex flex-col right-[10px] lg:top-[0px] lg:right-[15%] lg:w-[600px] md:w-[550px] bg-white shadow-md p-4 z-50"
+            >
+              <div class="w-full h-[250px]"></div>
+              <div class="flex flex-row">
+                <div class="flex gap-x-[8px] items-center w-[95%] flex-row">
+                  <img
+                    class="w-5 h-5 opacity-50"
+                    src="./public/images/searchbar/svgexport-5.svg"
+                    alt=""
+                  />
+                  <span class="opacity-70 text-sm">آخرین جستجو های شما</span>
+                </div>
+                <div class="w-[5%]">
+                  <img
+                    class="w-5 h-5 opacity-50"
+                    src="./public/images/searchbar/svgexport-6.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div
+                class="w-full flex flex-row my-[15px] gap-x-[10px] overflow-x-auto"
+              >
+                <div
+                  class="w-fit p-1 pr-2 text-[12px] cursor-pointer items-center flex rounded-full border-[.5px] border-gray-500 opacity-50"
+                >
+                  ماژول شارژ باتری
+                  <img src="./public/images/searchbar/svgexport-7.svg" alt="" />
+                </div>
+                <div
+                  class="w-fit p-1 pr-2 text-[12px] cursor-pointer items-center flex rounded-full border-[.5px] border-gray-500 opacity-50"
+                >
+                  gx12
+                  <img src="./public/images/searchbar/svgexport-7.svg" alt="" />
+                </div>
+                <div
+                  class="w-fit p-1 pr-2 text-[12px] cursor-pointer items-center flex rounded-full border-[.5px] border-gray-500 opacity-50"
+                >
+                  آیفون
+                  <img src="./public/images/searchbar/svgexport-7.svg" alt="" />
+                </div>
+              </div>
+              <hr class="w-full" />
+              <div class="flex flex-row">
+                <div class="flex gap-x-[8px] items-center w-[95%] flex-row">
+                  <img
+                    class="w-5 h-5 opacity-50"
+                    src="./public/images/searchbar/svgexport-8.svg"
+                    alt=""
+                  />
+                  <span class="opacity-70 text-sm">جستجو های پر طرفدار</span>
+                </div>
+              </div>
+              <div
+                class="w-full flex flex-row my-[15px] gap-x-[10px] overflow-x-auto"
+              >
+                <div
+                  class="w-fit min-w-[130px] pr-2 text-[12px] cursor-pointer items-center flex rounded-full border-[.5px] border-gray-500 opacity-50"
+                >
+                  ست لباس پسرانه<img
+                    src="./public/images/searchbar/svgexport-7.svg"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="w-fit min-w-[170px] pr-2 text-[12px] cursor-pointer items-center flex rounded-full border-[.5px] border-gray-500 opacity-50"
+                >
+                  ست لباس ورزشی پسرانه
+                  <img src="./public/images/searchbar/svgexport-7.svg" alt="" />
+                </div>
+                <div
+                  class="w-fit min-w-[60px] p-1 pr-2 text-[12px] cursor-pointer items-center flex rounded-full border-[.5px] border-gray-500 opacity-50"
+                >
+                  بوت
+                  <img src="./public/images/searchbar/svgexport-7.svg" alt="" />
+                </div>
+                <div
+                  class="w-fit min-w-[150px] p-1 pr-2 text-[12px] cursor-pointer items-center flex rounded-full border-[.5px] border-gray-500 opacity-50"
+                >
+                  تنگ ماهی شیشه ای
+                  <img src="./public/images/searchbar/svgexport-7.svg" alt="" />
+                </div>
+                <div
+                  class="w-fit min-w-[130px] p-1 pr-2 text-[12px] cursor-pointer items-center flex rounded-full border-[.5px] border-gray-500 opacity-50"
+                >
+                  ماسک بینی لانبلا
+                  <img src="./public/images/searchbar/svgexport-7.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ورود و ثبت‌نام -->
+          <div
+            class="header__center__login w-full md:w-[25%] bg-[#FFFFFF] z-30 h-full hidden lg:flex justify-end items-center pt-[3px] pl-[15px] gap-x-[15px] md:order-none order-3"
+          >
+            <a
+              class="block w-[135px] h-[38px] border-[1px] border-solid border-gray-300 rounded-[7px] text-black text-[11px] flex items-center justify-center gap-x-[5px] font-semibold"
+              href="#"
+            >
+              <img src="./public/images/loginlogo.svg" alt="ورود" />
+              ورود
+              <span class="inline-block w-[1.5px] h-[10px] bg-[#2b2b2b]"></span>
+              ثبت نام
+            </a>
+            <span class="inline-block w-[1px] h-[25px] bg-gray-200"></span>
+            <img
+              class="w-[25px]"
+              src="./public/images/loginheader.svg"
+              alt="آیکن ورود"
+            />
+          </div>
+
+          <!-- دیو سفید (برای موبایل) -->
+          <div
+            id="searchPanelMobile"
+            class="hidden fixed top-0 left-0 w-full h-full bg-white z-50 flex flex-col items-center justify-start p-4 md:hidden"
+          >
+            <button
+              id="closeMobilePanel"
+              class="self-end text-red-500 font-bold text-lg"
+            >
+              بستن ✕
+            </button>
+            <div class="w-full mt-[20px] gap-y-[10px] flex flex-col">
+              <div class="flex flex-row">
+                <div class="flex gap-x-[8px] items-center w-[95%] flex-row">
+                  <img
+                    class="w-5 h-5 opacity-50"
+                    src="./public/images/searchbar/svgexport-5.svg"
+                    alt=""
+                  />
+                  <span class="opacity-70 text-sm">آخرین جستجو های شما</span>
+                </div>
+                <div class="w-[5%]">
+                  <img
+                    class="w-5 h-5 opacity-50"
+                    src="./public/images/searchbar/svgexport-6.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div
+                class="w-full flex flex-row my-[15px] gap-x-[10px] overflow-x-auto"
+              >
+                <div
+                  class="w-fit p-1 pr-2 text-[12px] cursor-pointer items-center flex rounded-full border-[.5px] border-gray-500 opacity-50"
+                >
+                  ماژول شارژ باتری
+                  <img src="./public/images/searchbar/svgexport-7.svg" alt="" />
+                </div>
+                <div
+                  class="w-fit p-1 pr-2 text-[12px] cursor-pointer items-center flex rounded-full border-[.5px] border-gray-500 opacity-50"
+                >
+                  gx12
+                  <img src="./public/images/searchbar/svgexport-7.svg" alt="" />
+                </div>
+                <div
+                  class="w-fit p-1 pr-2 text-[12px] cursor-pointer items-center flex rounded-full border-[.5px] border-gray-500 opacity-50"
+                >
+                  آیفون
+                  <img src="./public/images/searchbar/svgexport-7.svg" alt="" />
+                </div>
+              </div>
+              <hr class="w-full" />
+              <div class="flex flex-row">
+                <div class="flex gap-x-[8px] items-center w-[95%] flex-row">
+                  <img
+                    class="w-5 h-5 opacity-50"
+                    src="./public/images/searchbar/svgexport-8.svg"
+                    alt=""
+                  />
+                  <span class="opacity-70 text-sm">جستجو های پر طرفدار</span>
+                </div>
+              </div>
+              <div
+                class="w-full py-2 flex flex-row my-[15px] gap-x-[10px] overflow-x-auto"
+              >
+                <div
+                  class="w-fit min-w-[130px] pr-2 text-[12px] cursor-pointer items-center flex rounded-full border-[.5px] border-gray-500 opacity-50"
+                >
+                  ست لباس پسرانه<img
+                    src="./public/images/searchbar/svgexport-7.svg"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="w-fit min-w-[170px] pr-2 text-[12px] cursor-pointer items-center flex rounded-full border-[.5px] border-gray-500 opacity-50"
+                >
+                  ست لباس ورزشی پسرانه
+                  <img src="./public/images/searchbar/svgexport-7.svg" alt="" />
+                </div>
+                <div
+                  class="w-fit min-w-[60px] p-1 pr-2 text-[12px] cursor-pointer items-center flex rounded-full border-[.5px] border-gray-500 opacity-50"
+                >
+                  بوت
+                  <img src="./public/images/searchbar/svgexport-7.svg" alt="" />
+                </div>
+                <div
+                  class="w-fit min-w-[150px] p-1 pr-2 text-[12px] cursor-pointer items-center flex rounded-full border-[.5px] border-gray-500 opacity-50"
+                >
+                  تنگ ماهی شیشه ای
+                  <img src="./public/images/searchbar/svgexport-7.svg" alt="" />
+                </div>
+                <div
+                  class="w-fit min-w-[130px] p-1 pr-2 text-[12px] cursor-pointer items-center flex rounded-full border-[.5px] border-gray-500 opacity-50"
+                >
+                  ماسک بینی لانبلا
+                  <img src="./public/images/searchbar/svgexport-7.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="header__bottom lg:flex flex-row-full transition-transform duration-500 z-20 bg-[#FFFFFF] ease-in-out relative shadow-[0px_1px_1px_lightgray] transition-discrete"
+        >
+          <div
+            class="header__bottom__menu w-[85%] bg-[#FFFFFF] h-full pr-[25px]"
+          >
+            <nav
+              class="w-full sm:hidden lg:flex flex-row flex-wrap gap-x-[15px]"
+            >
+              <div class="navheader__bottom__menu flex" id="nav">
+                <img
+                  src="./public/images/svg-header/header_bar.svg"
+                  alt=""
+                  class="w-[25px] h-[25px] my-auto"
+                />
+                <div class="relative">
+                  <a href="#" class="text-[13.5px] group flex pt-[7px]">
+                    دسته بندی کالاها
+                    <div
+                      id="headerSubmenu"
+                      class="header__submenu group-hover:flex absolute top-[27px] right-[-50px] w-[98.9vw] pr-[25px] h-[calc(90vh-40px)] bg-[#2b2b2baa] z-20 hidden ease-in-out"
+                    >
+                      <div
+                        id="sidebar"
+                        class="h-[500px] w-[220px] rtl bg-white overflow-y-auto"
+                      ></div>
+                      <div
+                        id="details"
+                        class="max-h-[500px] overflow-y-auto rtl w-fit px-[50px] flex-col items-end justify-start text-right flex bg-white p-4"
+                      ></div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <span
+                class="w-[1.5px] my-auto h-[15px] mb-auto bg-gray-200 inline-block"
+              ></span>
+              <div
+                class="navheader__bottom__menu h-[10px] group relative"
+                id="nav"
+              >
+                <a
+                  class="flex items-center w-full py-[7px] text-[#626880] text-[11px] transition-border-b duration-1000 ease-in-out inline-block"
+                  href="./incredible-offer.html"
+                  ><img
+                    class="pl-[8px] w-[25px]"
+                    src="./public/images/svg-header/header_amazing.svg"
+                    alt=""
+                  />
+                  شگفت انگیز ها</a
+                >
+                <span
+                  class="absolute bottom-[-16.5px] left-0 w-full h-[.5px] bg-[#ED1944] scale-x-0 group-hover:scale-x-100 transition-transform origin-left hover:origin-center"
+                ></span>
+              </div>
+              <div
+                class="navheader__bottom__menu h-[10px] group relative"
+                id="nav"
+              >
+                <a
+                  class="flex items-center w-full py-[7px] text-[#626880] text-[11px] transition-border-b duration-1000 ease-in-out relative inline-block"
+                  href="./incredible-offer.html"
+                  ><img
+                    class="pl-[8px] w-[25px]"
+                    src="./public/images/svg-header/header_supermarket.svg"
+                    alt=""
+                  />
+                  سوپرمارکت</a
+                >
+                <span
+                  class="absolute bottom-[-16.5px] left-0 w-full h-[.5px] bg-[#ED1944] scale-x-0 group-hover:scale-x-100 transition-transform origin-left hover:origin-center"
+                ></span>
+              </div>
+              <div
+                class="navheader__bottom__menu group h-[10px] relative"
+                id="nav"
+              >
+                <a
+                  class="flex items-center w-full py-[7px] text-[#626880] text-[11px] transition-border-b duration-1000 ease-in-out relative inline-block"
+                  href="./incredible-offer.html"
+                  ><img
+                    class="pl-[8px] w-[25px]"
+                    src="./public/images/svg-header/header_giftcard.svg"
+                    alt=""
+                  />
+                  کارت هدیه</a
+                >
+                <span
+                  class="absolute bottom-[-16.5px] left-0 w-full h-[.5px] bg-[#ED1944] scale-x-0 group-hover:scale-x-100 transition-transform origin-left hover:origin-center"
+                ></span>
+              </div>
+              <div
+                class="navheader__bottom__menu group h-[10px] relative"
+                id="nav"
+              >
+                <a
+                  class="flex items-center w-full py-[7px] text-[#626880] text-[11px] transition-border-b duration-1000 ease-in-out relative inline-block"
+                  href="./incredible-offer.html"
+                  ><img
+                    class="pl-[8px] w-[25px]"
+                    src="./public/images/svg-header/header_bestseler.svg"
+                    alt=""
+                  />
+                  پرفروش ترین ها</a
+                ><span
+                  class="absolute bottom-[-16.5px] left-0 w-full h-[.5px] bg-[#ED1944] scale-x-0 group-hover:scale-x-100 transition-transform origin-left hover:origin-center"
+                ></span>
+              </div>
+              <div
+                class="navheader__bottom__menu group h-[10px] relative"
+                id="nav"
+              >
+                <a
+                  class="flex items-center w-full py-[7px] text-[#626880] text-[11px] transition-border-b duration-1000 ease-in-out relative inline-block"
+                  href="./incredible-offer.html"
+                  ><img
+                    class="pl-[8px] w-[25px]"
+                    src="./public/images/svg-header/header_discount.svg"
+                    alt=""
+                  />
+                  تخفیف ها و پیشنهاد ها</a
+                ><span
+                  class="absolute bottom-[-16.5px] left-0 w-full h-[.5px] bg-[#ED1944] scale-x-0 group-hover:scale-x-100 transition-transform origin-left hover:origin-center"
+                ></span>
+              </div>
+              <span
+                class="w-[1.5px] h-[15px] bg-gray-200 my-auto inline-block"
+              ></span>
+              <div
+                class="navheader__bottom__menu group h-[10px] relative"
+                id="nav"
+              >
+                <a
+                  class="flex items-center w-full py-[7px] text-[#626880] text-[11px] transition-border-b duration-1000 ease-in-out relative inline-block"
+                  href="./incredible-offer.html"
+                >
+                  سوالی دارید؟</a
+                >
+                <span
+                  class="absolute bottom-[-16.5px] left-0 w-full h-[.5px] bg-[#ED1944] scale-x-0 group-hover:scale-x-100 transition-transform origin-left hover:origin-center"
+                ></span>
+              </div>
+              <div
+                class="navheader__bottom__menu group h-[10px] relative"
+                id="nav"
+              >
+                <a
+                  class="flex items-center w-full py-[7px] text-[#626880] text-[11px] transition-border-b duration-1000 ease-in-out relative inline-block"
+                  href="./incredible-offer.html"
+                >
+                  در دیجی کالا بفروشید!</a
+                ><span
+                  class="absolute bottom-[-16.5px] left-0 w-full h-[.5px] bg-[#ED1944] scale-x-0 group-hover:scale-x-100 transition-transform origin-left hover:origin-center"
+                ></span>
+              </div>
+            </nav>
+          </div>
+          <div
+            class="header__bottom__location sm:w-full lg:w-[15%] min-w-[175px] lg:justify-end ml-[15px] flex my-auto text-center"
+          >
+            <img
+              src="./public/images/svg-header/header_location.svg"
+              class="w-[20px] h-[20px]"
+              alt=""
+            />
+            <div class="header__bottom__location__text">
+              <a
+                href="#"
+                class="block items-center h-inherit px-2.5 text-[#626880] text-[12px]"
+                >لطفا شهر خود را انتخاب کنید</a
+              >
+            </div>
+            <!-- city -->
+
+            <!-- end city -->
+          </div>
+        </div>
+      </header>
+      <!--end header -->
+      <!-- story -->
+      <div class="storys lg:w-[1340px] w-[100%] mt-[20px]">
+        <div class="swiper mystory">
+          <div class="swiper-wrapper story"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+      <!-- end story -->
+      <!-- slider -->
+      <div class="slider">
+        <div class="swiper myslider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./public/images/slider/1.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img class="" src="./public/images/slider/2.gif" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img class="" src="./public/images/slider/3.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img class="" src="./public/images/slider/4.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img class="" src="./public/images/slider/5.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img class="" src="./public/images/slider/6.gif" alt="" />
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <!-- end slider -->
+      <!-- icon -->
+      <div
+        class="h-[150px] icon !w-[100%] lg:w-[1340px] mx-auto flex flex-row justify-center lg:gap-x-[70px] gap-x-[50px] overflow-y-hidden sm:overflow-x-auto my-[20px] text-center"
+      ></div>
+      <!-- amazing -->
+      <div
+        class="amazing_conetnt incredible relative sm:w-[100%] lg:w-[1350px] h-[285px] bg-[#E9364E] mx-auto bg-custom-red flex flex-col lg:flex-row lg:rounded-2xl mt-4 lg:mt-0 h-fit items-center"
+      >
+        <div
+          class="amzing_header flex lg:flex-col justify-between lg:items-center lg:h-[90%] w-full lg:w-[12%] transition-all duration-300"
+        >
+          <div class="images flex lg:flex-col items-center">
+            <img
+              src="./images/incredible/شگفت انگیز.svg"
+              class="bg-transparent block object-cover w-[88px] hidden lg:block"
+              alt="incredible-word"
+            />
+            <div
+              class="amazing_timer flex items-center font-[bnazanin] text-opacity-75 justify-center gap-1 p-4 rounded-lg text-white order-3 lg:order-2"
+            >
+              <span
+                class="time-box w-6 h-6 flex items-center justify-center bg-white text-black text-[13px] font-bold rounded-md"
+                id="seconds"
+                >00</span
+              >
+              <span class="text-white">:</span>
+              <span
+                class="time-box w-6 h-6 flex items-center justify-center bg-white text-black text-[13px] font-bold rounded-md"
+                id="minutes"
+                >00</span
+              >
+              <span class="text-white">:</span>
+              <span
+                class="time-box w-6 h-6 flex items-center justify-center bg-white text-black text-[13px] font-bold rounded-md"
+                id="hours"
+                >00</span
+              >
+            </div>
+          </div>
+          <img
+            src="./images/incredible/شگفت انگیز-1.svg"
+            class="w-[80px] block lg w-[50px]:lg:w-[60px]"
+            alt="incredible-word"
+          />
+          <a href="#" class="flex items-center gap-1 text-[12px] text-white"
+            >مشاهده همه</a
+          >
+        </div>
+
+        <!-- Swiper Container -->
+        <div class="swiper amazing-swiper w-[100%] h-[100%]">
+          <div class="swiper-wrapper swiper-wrapper5 relative">
+            <!-- Slides will be appended dynamically -->
+          </div>
+          <!-- Navigation Buttons -->
+          <div class="swiper-button-prev5 swiper-button-prev"></div>
+          <div class="swiper-button-next5 swiper-button-next"></div>
+        </div>
+      </div>
+      <!--end amazing -->
+      <!-- ads -->
+      <div
+        class="ads lg:w-[1340px] sm:w-[100%] gap-x-[20px] flex lg:flex-row sm:flex-wrap lg:flex-nowrap mx-auto my-[20px]"
+      ></div>
+      <!-- supermarket -->
+      <div
+        class="lg:w-[1340px] sm:w-[100%] lg:h-[111px] bg-[#E8ECEB] flex-wrap rounded-[15px] my-[10px] mx-auto flex pr-[45px] lg:py-0 sm:py-[20px] pl-[100px]"
+      >
+        <div class="lg:w-[40%] sm:w-[100%] h-full flex flex-wrap flex-row">
+          <img
+            class="w-[66px] h-[62px] mt-[20px]"
+            src="./public/images/amazing supermarket/fresh.png"
+            alt=""
+          />
+          <img
+            class="w-[250px] h-[28px] mt-[40px] mr-[20px]"
+            src="./public/images/amazing supermarket/svgexport-23.svg"
+            alt=""
+          />
+          <div
+            class="w-[112px] h-[30px] rounded-[50px] bg-[#029A49] text-[#fff] text-center text-[14px] mt-[39px] mr-[15px]"
+          >
+            تا<span class="font-[bnazanin] font-semibold text-[18px]">40%</span>
+            تخفیف
+          </div>
+        </div>
+        <div
+          class="h-full lg:w-[60%] md:w-[100%] flex flex-row sm:flex-wrap lg:flex-nowrap gap-x-[10px] lg:pr-[150px]"
+        >
+          <div
+            class="lg:w-[492px] h-[74px] mt-[20px] flex flex-row gap-x-[10px]"
+          >
+            <div
+              class="w-[65px] h-[65px] flex flex-row gap-x-[20px] text-right rounded-full relative"
+            >
+              <div class="amazing__supermarket__left__product__img">
+                <img
+                  src="./public/images/amazing supermarket/1.png"
+                  class="w-[65px] h-[65px] rounded-full object-cover box-border items-center justify-center my-1 mx-auto"
+                  alt=""
+                />
+                <div
+                  class="w-[34px] h-[20px] font-[var(--BNazanin)] text-[10px] bg-[#D32F2F] rounded-[20px] flex items-center justify-center text-center text-white mb-[50px] absolute top-[50px] left-[40px]"
+                >
+                  <h2 class="font-[bnazanin] text-[13px] font-semibold">45%</h2>
+                </div>
+              </div>
+            </div>
+            <div
+              class="w-[65px] h-[65px] flex flex-row gap-x-[20px] text-right rounded-full relative"
+            >
+              <div class="amazing__supermarket__left__product__img">
+                <img
+                  src="./public/images/amazing supermarket/2.png"
+                  class="w-[65px] h-[65px] rounded-full object-cover box-border items-center justify-center my-1 mx-auto"
+                  alt=""
+                />
+                <div
+                  class="w-[34px] h-[20px] font-[var(--BNazanin)] text-[10px] bg-[#D32F2F] rounded-[20px] flex items-center justify-center text-center text-white mb-[50px] absolute top-[50px] left-[40px]"
+                >
+                  <h2 class="font-[bnazanin] text-[13px] font-semibold">60%</h2>
+                </div>
+              </div>
+            </div>
+            <div
+              class="w-[65px] h-[65px] flex flex-row gap-x-[20px] text-right rounded-full relative"
+            >
+              <div class="amazing__supermarket__left__product__img">
+                <img
+                  src="./public/images/amazing supermarket/3.png"
+                  class="w-[65px] h-[65px] rounded-full object-cover box-border items-center justify-center my-1 mx-auto"
+                  alt=""
+                />
+                <div
+                  class="w-[34px] h-[20px] font-[var(--BNazanin)] text-[10px] bg-[#D32F2F] rounded-[20px] flex items-center justify-center text-center text-white mb-[50px] absolute top-[50px] left-[40px]"
+                >
+                  <h2 class="font-[bnazanin] text-[13px] font-semibold">40%</h2>
+                </div>
+              </div>
+            </div>
+            <div
+              class="w-[65px] h-[65px] flex flex-row gap-x-[20px] text-right rounded-full relative"
+            >
+              <div class="amazing__supermarket__left__product__img">
+                <img
+                  src="./public/images/amazing supermarket/4.png"
+                  class="w-[65px] h-[65px] rounded-full object-cover box-border items-center justify-center my-1 mx-auto"
+                  alt=""
+                />
+                <div
+                  class="w-[34px] h-[20px] font-[var(--BNazanin)] text-[10px] bg-[#D32F2F] rounded-[20px] flex items-center justify-center text-center text-white mb-[50px] absolute top-[50px] left-[40px]"
+                >
+                  <h2 class="font-[bnazanin] text-[13px] font-semibold">50%</h2>
+                </div>
+              </div>
+            </div>
+            <div
+              class="w-[65px] h-[65px] flex flex-row gap-x-[20px] text-right rounded-full relative"
+            >
+              <div class="amazing__supermarket__left__product__img">
+                <img
+                  src="./public/images/amazing supermarket/5.png"
+                  class="w-[65px] h-[65px] rounded-full object-cover box-border items-center justify-center my-1 mx-auto"
+                  alt=""
+                />
+                <div
+                  class="w-[34px] h-[20px] font-[var(--BNazanin)] text-[10px] bg-[#D32F2F] rounded-[20px] flex items-center justify-center text-center text-white mb-[50px] absolute top-[50px] left-[40px]"
+                >
+                  <h2 class="font-[bnazanin] text-[13px] font-semibold">45%</h2>
+                </div>
+              </div>
+            </div>
+            <div
+              class="w-[65px] h-[65px] flex flex-row gap-x-[20px] text-right rounded-full relative"
+            >
+              <div class="amazing__supermarket__left__product__img">
+                <img
+                  src="./public/images/amazing supermarket/6.png"
+                  class="w-[65px] h-[65px] rounded-full object-cover box-border items-center justify-center my-1 mx-auto"
+                  alt=""
+                />
+                <div
+                  class="w-[34px] h-[20px] font-[var(--BNazanin)] text-[10px] bg-[#D32F2F] rounded-[20px] flex items-center justify-center text-center text-white mb-[50px] absolute top-[50px] left-[40px]"
+                >
+                  <h2 class="font-[bnazanin] text-[13px] font-semibold">50%</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="lg:w-[145px] h-[50px] bg-white text-[#029A49] flex rounded-[30px] mt-[30px] relative pl-[25px]"
+          >
+            <a
+              class="flex text-none w-[140px] leading-[17px] h-[50px] text-center justify-center text-[#029A49] mt-[18px]"
+              >بیش از
+              <span class="font-[bnazanin] text-[17px] font-semibold">30</span>
+              کالا</a
+            >
+            <img
+              src="./public/images/amazing supermarket/svgexport-25.svg"
+              alt=""
+              class="!w-[20px] !h-[20px] !absolute !left-[20px] !top-[15px]"
+            />
+          </div>
+        </div>
+      </div>
+      <!--end supermarket -->
+      <!-- ads2 -->
+      <div
+        class="ads2 lg:w-[1340px] sm:w-[100%] gap-x-[20px] flex lg:flex-row sm:flex-wrap lg:flex-nowrap mx-auto my-[20px]"
+      ></div>
+      <!-- category -->
+      <div
+        class="lg:w-[1340px] w-[100%] gap-x-[20px] flex flex-col mx-auto mt-[50px] my-[30px] text-center"
+      >
+        <h4 class="w-full text-[21px]">خرید بر اساس دسته‌بندی</h4>
+        <div
+          class="category-container lg:w-[1147px] max-h-[350px] max-w-[1100px] lg:overflow-hidden sm:overflow-x-auto flex-wrap w-full mt-[30px] items-center justify-center mx-auto gap-x-[38px] flex-row flex"
+        >
+          <div
+            class="category flex flex-wrap items-center justify-center gap-x-[38px] gap-y-[20px]"
+          ></div>
+        </div>
+      </div>
+      <!--end category -->
+      <!-- ads3 -->
+      <div
+        class="ads3 lg:w-[1340px] sm:w-[100%] gap-[15px] sm:flex-wrap flex flex-row mx-auto my-[10px]"
+      ></div>
+      <!-- brands -->
+      <div
+        class="brand w-full lg:w-[1340px] border-[1px] py-[20px] border-opacity-25 border-neutral-500 rounded-[16px]"
+      >
+        <div
+          class="flex flex-row w-full text-[19px] mb-[10px] items-center justify-center text-center"
+        >
+          <img
+            class="w-[25px] h-[30px]"
+            src="./public/images/brands/brands.png"
+            alt=""
+          />
+          <span class="">محبوب ترین برندها</span>
+        </div>
+        <div class="swiper mybrands">
+          <div class="swiper-wrapper brands"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+      <!--end brands -->
+      <!-- ads4 -->
+      <div
+        class="ads4 lg:w-[1340px] sm:w-[100%] gap-[15px] sm:flex-wrap flex flex-row mx-auto my-[10px]"
+      ></div>
+      <!-- Adgrid -->
+      <div
+        class="lg:w-[1340px] w-[100%] flex flrx-wrap lg:flex-row sm:flex-col gap-x-[.5px] lg:h-[450px] border-[1px] mx-auto overflow-hidden my-[20px] bg-[#fff] bg-opacity-25 border-opacity-25 border-neutral-500 rounded-[16px] Adgrid"
+      ></div>
+      <!-- high sell start  -->
+      <div
+        class="high_sell my-4 w-[100%] md:w-[90%] xl:w-[1340px] mx-auto overflow-hidden relative"
+      >
+        <div
+          class="high_sell_container overflow-hidden p-2 md:border-[.5px] md:border-gray-300 md:rounded-2xl"
+          id="high_sell_container relative"
+        >
+          <div class="high_sell_header w-full flex justify-between my-4 px-2">
+            <span class="hidden W-[90%] md:block"></span>
+            <h2 class="flex items-center gap-1 pr-[50px] text-center">
+              <svg
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns="http://www.w3.org/2000/svg"
+                style="width: 18px; height: 18px; fill: #f9a825"
+                width="24"
+                height="24"
+              >
+                <defs>
+                  <symbol
+                    id="searchTrend"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12.015 9.105c.222.397.41.73.466.842.361.724.519 1.31.519 2.053a2 2 0 01-4 0l.003-4.557c0-.953-1.206-1.367-1.79-.613C5.087 9.572 4 11.906 4 13.889 4 18.365 7.578 22 12 22c4.422 0 8-3.635 8-8.111 0-2.968-2.45-6.78-7.295-11.598a1 1 0 00-1.6.262c-.807 1.615-.807 3.28 0 4.894.178.356.582 1.076.91 1.658zM7 12a4 4 0 108 0c0-1.078-.238-1.962-.73-2.947-.079-.156-.31-.569-.566-1.024a50.532 50.532 0 01-.81-1.476c-.273-.546-.404-1.079-.393-1.612C16.18 8.811 18 11.834 18 13.889 18 17.267 15.31 20 12 20s-6-2.733-6-6.111c0-.87.33-1.925 1-3.154V12z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </symbol>
+                </defs>
+                <use xlink:href="#searchTrend"></use>
+              </svg>
+              <span class="text-[18px]">پرفروش ترین کالاها </span>
+            </h2>
+            <a
+              href="#"
+              class="text-[#19bfd3] W-[10%] flex flex-row text-[12px] font-bold"
+              >مشاهده همه<img
+                class="w-[15px] h-[15px]"
+                src="./public/images/Adgrid/Untitled.png"
+                alt=""
+            /></a>
+          </div>
+          <div class="swiper px-4 highSellSwiper hotsells" id="highSellSwiper">
+            <div class="swiper-wrapper swiper-wrapper7"></div>
+            <!-- Swiper Navigation Buttons -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+      </div>
+      <!-- high sell end  -->
+      <!-- Adgrid2 -->
+      <div
+        class="lg:w-[1340px] w-[100%] flex flrx-wrap lg:flex-row sm:flex-col gap-x-[.5px] lg:h-[450px] border-[1px] mx-auto overflow-hidden my-[20px] bg-[#fff] bg-opacity-25 border-opacity-25 border-neutral-500 rounded-[16px] Adgrid2"
+      ></div>
+      <!--ad-->
+      <div
+        class="lg:w-[1336px] w-[100%] cursor-pointer lg:h-[167px] border-opacity-25 border-neutral-500 rounded-[16px] mx-auto overflow-hidden my-[20px]"
+      >
+        <img src="./public/images/ad.jpg" alt="" />
+      </div>
+      <!-- mainAdGrid -->
+      <div
+        class="lg:w-[1340px] flex flex-col justify-center items-center rounded-2xl my-[20px] mx-auto bg-[#fff] bg-opacity-25 border-opacity-[10%] border-neutral-500 border-[.1px] overflow-hidden w-[100%]"
+      >
+        <h4 class="my-[10px] flex flex-row text-lg gap-x-[10px] opacity-70">
+          <img
+            class="fill-red-50"
+            src="./public/images/mainadgrid/svgexport-9.svg"
+            alt=""
+          />
+          منتخب مصولات تخفیف و حراج
+        </h4>
+        <div
+          class="w-[100%] flex flex-wrap lg:flex-row sm:flex-wrap gap-x-[.5px] lg:h-[812px] mx-auto overflow-hidden bg-[#fff] bg-opacity-25 border-opacity-[5%] border-neutral-500 justify-center items-center mainAdGrid"
+        ></div>
+      </div>
+      <!--end mainAdGrid -->
+      <!-- hot sell start  -->
+      <div
+        class="high_sell my-4 w-[100%] md:w-[90%] xl:w-[1340px] mx-auto overflow-hidden relative"
+      >
+        <div
+          class="high_sell_container overflow-hidden p-2 md:border-[.5px] md:border-gray-300 md:rounded-2xl"
+          id="high_sell_container relative"
+        >
+          <div
+            class="high_sell_header w-full flex justify-center mx-auto my-4 px-2"
+          >
+            <span class="hidden W-[90%] md:block"></span>
+            <h2 class="flex items-center gap-1 pr-[50px] text-center">
+              <svg
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns="http://www.w3.org/2000/svg"
+                style="width: 18px; height: 18px; fill: #f9a825"
+                width="24"
+                height="24"
+              >
+                <defs>
+                  <symbol
+                    id="searchTrend"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12.015 9.105c.222.397.41.73.466.842.361.724.519 1.31.519 2.053a2 2 0 01-4 0l.003-4.557c0-.953-1.206-1.367-1.79-.613C5.087 9.572 4 11.906 4 13.889 4 18.365 7.578 22 12 22c4.422 0 8-3.635 8-8.111 0-2.968-2.45-6.78-7.295-11.598a1 1 0 00-1.6.262c-.807 1.615-.807 3.28 0 4.894.178.356.582 1.076.91 1.658zM7 12a4 4 0 108 0c0-1.078-.238-1.962-.73-2.947-.079-.156-.31-.569-.566-1.024a50.532 50.532 0 01-.81-1.476c-.273-.546-.404-1.079-.393-1.612C16.18 8.811 18 11.834 18 13.889 18 17.267 15.31 20 12 20s-6-2.733-6-6.111c0-.87.33-1.925 1-3.154V12z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </symbol>
+                </defs>
+                <use xlink:href="#searchTrend"></use>
+              </svg>
+              <span class="text-[18px]">داغ ترین چند ساعت گذشته</span>
+            </h2>
+          </div>
+          <div class="swiper px-4 hotsells" id="hotSellSwiper">
+            <div class="swiper-wrapper swiper-wrapper7"></div>
+            <!-- Swiper Navigation Buttons -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+      </div>
+      <!-- hot sell end  -->
+      <!-- reading -->
+      <div
+        class="lg:w-[1340px] w-[100%] flex flex-col gap-y-[12px] lg:h-[300px] mx-auto my-[20px]"
+      >
+        <div class="flex w-full flex-row">
+          <span class="block w-[85%] pr-[30px] pt-[10px]">خواندنی ها</span>
+          <span
+            class="text-[12px] block w-[15%] min-w-[180px] cursor-pointer item-cenetr justify-center my-[15px] flex flex-row text-[#19BFD3] leading-[18px]"
+            >مطالب بیشتر در دیجی کالا مگ<img
+              class="w-[15px] h-[15px]"
+              src="./public/images/Adgrid/Untitled.png"
+              alt=""
+          /></span>
+        </div>
+        <div
+          class="reading flex sm:flex-col lg:flex-row justify-center gap-x-[13px]"
+        ></div>
+      </div>
+      <!--end reading -->
+      <!-- footer start  -->
+      <div
+        class="footer my-2 w-[100%] mt-[50px] border-t justify-center items-center itemes-start flex flex-col border-gray-400 border-opacity-25 mx-auto overflow-hidden relative"
+      >
+        <div class="footer_container mt-4 md:w-[90%] pr-[10px]">
+          <div class="w-[10%]">
+            <button
+              onclick="window.scrollTo({ top: 0, behavior: 'smooth' });"
+              class="flex items-center justify-between w-[10$] bg-transparent lg:border-[2px] text-[#19bfd3] lg:text-gray-400 text-[12px] px-4 py-2 rounded-lg transition absolute left-[40%] lg:left-[10%] top-[2px] lg:top-4"
+            >
+              بازگشت به بالا
+              <svg
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns="http://www.w3.org/2000/svg"
+                style="width: 24px; height: 24px; fill: rgb(153, 153, 153)"
+                width="24"
+                height="24"
+              >
+                <defs>
+                  <symbol
+                    id="expandLess"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7.707 14.707l-1.414-1.414 5-5a1 1 0 011.414 0l5 5-1.414 1.414L12 10.414l-4.293 4.293z"
+                    ></path>
+                  </symbol>
+                </defs>
+                <g>
+                  <path
+                    d="M7.707 14.707l-1.414-1.414 5-5a1 1 0 011.414 0l5 5-1.414 1.414L12 10.414l-4.293 4.293z"
+                  ></path>
+                </g>
+              </svg>
+            </button>
+          </div>
+          <!-- Top Footer Section -->
+          <div class="footer_top_first lg:justify-between hidden lg:flex">
+            <div class="flex w-full flex-col">
+              <div class="header__center__logo h-[70px] pt-[5px]">
+                <img
+                  class="w-[185px]"
+                  src="./public/images//mainlogo.svg"
+                  alt=""
+                />
+              </div>
+              <div class="footer_first_content opacity-70 flex gap-3">
+                <span class="text-[12px] text-gray-800"
+                  >تلفن پشتیبانی ۶۱۹۳۰۰۰۰ - ۰۲۱ |
+                </span>
+                <span class="text-[12px] text-gray-800">۰۲۱-۹۱۰۰۰۱۰۰ |</span>
+                <span class="text-[12px] text-gray-800"
+                  >۷ روز هفته، ۲۴ ساعته پاسخگوی شما هستیم</span
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="footer_top_second lg:justify-around my-5 gap-4 hidden flex-row lg:flex p-6 w-[90%]"
+          >
+            <img src="./public/images/footer/1.png" alt="" class="w-[250px]" />
+            <img src="./public/images/footer/2.png" alt="" class="w-[250px]" />
+            <img src="./public/images/footer/3.png" alt="" class="w-[250px]" />
+            <img src="./public/images/footer/4.png" alt="" class="w-[250px]" />
+            <img src="./public/images/footer/5.png" alt="" class="w-[250px]" />
+          </div>
+          <!-- lg hidden sections  -->
+          <div
+            class="lg:hidden flex flex-row justify-between w-[100%] items-center"
+          >
+            <div class="right flex gap-1">
+              <img
+                src="./public/images/footer/Untitled.png"
+                class="rounded-xl w-[45px]"
+                alt="logo"
+              />
+              <div class="right_content flex flex-col justify-between">
+                <span class="text-[10px]">۷ روز هفته، ۲۴ ساعت</span>
+                <span class="text-[13px] font-bold">تماس با پشتیبانی</span>
+              </div>
+            </div>
+            <div class="left ml-2">
+              <a
+                class="bg-transparent border-[1px] border-black text-black p-3 rounded-xl text-[12px]"
+                href="#"
+                >تماس</a
+              >
+            </div>
+          </div>
+
+          <hr class="w-full my-3" />
+
+          <div
+            class="lg:hidden flex flex-row justify-between w-[100%] items-center"
+          >
+            <div class="right flex gap-1">
+              <img
+                src="./public/images/footer/footerlogo2.png"
+                class="rounded-xl w-[40px]"
+                alt="logo"
+              />
+              <div class="right_content flex flex-col justify-between">
+                <span class="text-[10px]">تجربه خرید بهتر در</span>
+                <span class="text-[13px] font-bold">اپلیکیشن دیجیکالا</span>
+              </div>
+            </div>
+            <div class="left">
+              <a
+                class="bg-black text-white ml-2 p-3 rounded-xl text-[12px]"
+                href="#"
+                >دانلـود</a
+              >
+            </div>
+          </div>
+          <div
+            class="grid grid-cols-1 lg:grid-cols-4 lg:grid-rows-1 lg:gap-6 text-gray-700 pt-8"
+          >
+            <!-- Section 1 -->
+            <div class="faq-item lg:mb-4">
+              <button
+                class="w-full text-left flex opacity-75 pl-[10px] justify-between items-center py-3 focus:outline-none"
+                onclick="ToggleFAQ(1)"
+              >
+                <span class="font-medium flex items-center gap-2 text-black">
+                  با دیجی کالا
+                </span>
+                <span
+                  id="icon-1"
+                  class="transform ml-[10px] transition-transform duration-300 text-black lg:hidden"
+                  >+</span
+                >
+              </button>
+              <hr class="w-full lg:hidden" />
+              <div
+                id="answer-1"
+                class="pl-4 pr-2 text-gray-600 mt-2 hidden lg:flex"
+              >
+                <ul class="space-y-2 text-sm">
+                  <li>
+                    <a href="#" class="text-[12px] text-gray-400"
+                      >اتاق خبر دیجی‌کالا</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="text-[12px] text-gray-400"
+                      >فروش در دیجی‌کالا</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="text-[12px] text-gray-400"
+                      >فرصت‌های شغلی</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="text-[12px] text-gray-400"
+                      >تماس با دیجی‌کالا</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="text-[12px] text-gray-400">درباره ما</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Section 2 -->
+            <div class="faq-item hidden lg:block lg:mb-4">
+              <button
+                class="w-full text-left flex justify-between items-center py-3 focus:outline-none"
+                onclick="ToggleFAQ(2)"
+              >
+                <span
+                  class="font-medium flex opacity-75 pl-[10px] items-center gap-2 text-black"
+                >
+                  خدمات مشتریان
+                </span>
+                <span
+                  id="icon-2"
+                  class="transform ml-[10px] transition-transform duration-300 text-black lg:hidden"
+                  >+</span
+                >
+              </button>
+              <hr class="w-full lg:hidden" />
+              <div id="answer-2" class="pl-4 pr-2 text-gray-600 hidden lg:flex">
+                <ul class="space-y-2 text-sm">
+                  <li>
+                    <a href="#" class="text-gray-400">پاسخ به پرسش‌ها</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-gray-400">شرایط بازگشت کالا</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-gray-400">گزارش تخلف</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-gray-400">حریم خصوصی</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Section 3 -->
+            <div class="faq-item hidden lg:block lg:mb-4">
+              <button
+                class="w-full text-left flex justify-between items-center py-3 focus:outline-none"
+                onclick="ToggleFAQ(3)"
+              >
+                <span
+                  class="font-medium flex opacity-75 pl-[10px] items-center gap-2 text-black"
+                >
+                  راهنمای خرید از دیجی‌کالا
+                </span>
+                <span
+                  id="icon-3"
+                  class="transform ml-[10px] transition-transform duration-300 text-black lg:hidden"
+                  >+</span
+                >
+              </button>
+
+              <div id="answer-3" class="pl-4 pr-2 text-gray-600 hidden lg:flex">
+                <ul class="space-y-2 text-sm">
+                  <li>
+                    <a href="#" class="text-gray-400">نحوه ثبت سفارش</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-gray-400">شیوه‌های پرداخت</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-gray-400">رویه ارسال سفارش</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Section 4 -->
+            <!-- Section 4: Social Media -->
+            <div class="md:space-y-3 flex flex-col gap-6">
+              <div
+                class="md:flex sm:hidden items-center justify-between md:justify-start"
+              >
+                <h3 class="text-[13px] lg:text-[16px] font-bold text-blue-950">
+                  همراه ما باشید!
+                </h3>
+              </div>
+              <div id="section4" class="hidden md:block space-y-3">
+                <div class="flex space-x-4 rtl:space-x-reverse opacity-25">
+                  <a href="#" class="rounded">
+                    <img src="./public/images/footer/svgexport-27.svg" alt="" />
+                  </a>
+                  <a href="#" class="rounded">
+                    <img src="./public/images/footer/svgexport-28.svg" alt="" />
+                  </a>
+                  <a href="#" class="rounded">
+                    <img src="./public/images/footer/svgexport-29.svg" alt="" />
+                  </a>
+                  <a href="#" class="rounded">
+                    <img src="./public/images/footer/svgexport-30.svg" alt="" />
+                  </a>
+                </div>
+                <div class="space-y-3 col-span-2 md:col-span-1 min-w-[340px]">
+                  <h3 class="text-[13x] font-bold min-w-[340px] text-blue-950">
+                    با ثبت ایمیل، از جدید‌ترین تخفیف‌ها با‌خبر شوید
+                  </h3>
+                  <div class="flex flex-row gap-2 w-full">
+                    <input
+                      type="email"
+                      placeholder="ایمیل شما"
+                      class="px-3 bg-gray-200 py-2 border rounded-md focus:outline-none w-[80%]"
+                    />
+                    <button
+                      class="bg-gray-300 hover:bg-gray-500 text-white px-4 py-2 rounded-md"
+                    >
+                      ثبت
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom Download Section -->
+          <div
+            class="bg-[#3c4b6d] rounded-xl text-white p-4 lg:justify-between lg:items-center hidden lg:flex lg:my-4"
+          >
+            <div class="flex items-center space-x-4 rtl:space-x-reverse">
+              <img
+                src="./public/images/footer/footerlogo2.png"
+                class="w-[44px] h-[44px]"
+                alt=""
+              />
+              <span>دانلود اپلیکیشن دیجی‌کالا</span>
+            </div>
+
+            <!-- white Button -->
+
+            <div class="flex gap-4">
+              <img
+                src="./public/images/footer/download/1.jpg"
+                class="block w-[140px] h-[42px]"
+                alt=""
+              />
+              <img
+                src="./public/images/footer/download/2.jpg"
+                class="block w-[140px] h-[42px]"
+                alt=""
+              />
+              <img
+                src="./public/images/footer/download/3.jpg"
+                class="block w-[140px] h-[42px]"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <hr class="w-full hidden lg:block" />
+          <div class="flex justify-between items-start gap-4 p-4 rounded">
+            <!-- Right Section: Text Content -->
+            <div
+              class="text-gray-600 leading-6 relative mb-[50px] w-full lg:w-[70%]"
+            >
+              <p id="content" class="line-clamp-3 overflow-hidden text-[12px]">
+                یک خرید اینترنتی مطمئن، نیازمند فروشگاهی است که بتواند کالاهاییک
+                خرید اینترنتی مطمئن، نیازمند فروشگاهی است که بتواند کالاهایی
+                متنوع، باکیفیت و دارای قیمت مناسب را در مدت زمان ی کوتاه به دست
+                مشتریان خود برساند و ضمانت بازگشت کالا هم داشته باشد؛ ویژگی‌هایی
+                که فروشگاه اینترنتی دیجی‌کالا سال‌هاست بر روی آن‌ها کار کرده و
+                توانسته از این طریق مشتریان ثابت خود را داشته باشد. یکی از
+                مهم‌ترین دغدغه‌های کاربران دیجی‌کالا یا هر فروشگاه‌ اینترنتی
+                دیگری، این است که کالای خریداری شده چه زمانی به دستشان می‌رسد.
+                دیجی‌کالا شیوه‌های مختلفی از ارسال را متناسب با فروشنده کالا،‌
+                مقصد کالا و همچنین نوع کالا در اختیار کاربران خود قرار می‌دهد.
+                هر یک از روش های ارسال دیجی کالا شرایط و ویژگی‌های خاص خود را
+                دارند که ممکن است گاهی برای کاربران جدید، مبهم و پیچیده به نظر
+                برسند. برای آگاهی بیشتر مشتریان از خدمات دیجی‌کالا، این فروشگاه
+                اینترنتی در بخشی از وب‌سایت خود راهنمای کاملی از شیوه‌‌های ارسال
+                را به صورت ساده و به دور از پیچیدگی، قرار داده است که شامل 8 نوع
+                ارسال کالا به روش‌های زیر است: ارسال امروز، دریافت حضوری، دریافت
+                از گنجه، ارسال توسط فروشنده، ارسال عادی، ارسال کالاهای بزرگ،
+                سنگین و فوق سنگین، ارسال سریع سوپرمارکتی، ارسال با پست کدام
+                محصولات در دیجی‌کالا قابل سفارش هستند؟ تقریبا می‌توان گفت محصولی
+                وجود ندارد که دیجی‌کالا برای مشتریان خود در سراسر کشور فراهم
+                نکرده باشد. شما می‌توانید در تمامی روزهای هفته و تمامی شبانه روز
+                دیجی‌کالا که محصولات دارای تخفیف عالی می‌شوند، سفارش خود را به
+                سادگی ثبت کرده و در روز و محدوده زمانی مناسب خود، درب منزل تحویل
+                بگیرید. بعضی از گروه‌های اصلی و زیر مجموعه‌های پرطرفدار محصولات
+                دیجی‌کالا شامل مواردی می‌شود که در ادامه به معرفی آن‌ها
+                می‌پردازیم که امکان ارسال امروز برای آن ها وجود دارد. دیجی کالا
+                در جشنواره‌های سالیانه خود به طور معمول روی تمام دسته بندی‌های
+                کالایی تخفیف‌های عالی قرار‌می‌دهد. به عنوان مثال در زمان بلک
+                فرایدی یا حراج جمعه سیاه، در این سال‌ها بیشترین درصد تخفیف در
+                اختیار مشتریان دیجی‌کالا قرار گرفته‌است و شامل دسته بندی های
+                مختلف از موبایل و لپ تاپ تا عطر و لباس و حتی غذای حیوانات خانگی
+                بوده‌است. کالای دیجیتال
+              </p>
+              <!-- Show More / Show Less Button -->
+              <button
+                id="toggleBtn"
+                class="text-blue-500 text-[10px] hover:text-blue-700 mt-2 shadow-bottom-only w-full text-right"
+              >
+                مشاهده بیشتر
+              </button>
+            </div>
+            <!-- Left Section: Images -->
+            <div class="gap-4 hidden lg:flex">
+              <img
+                src="./public/images/footer/1.jpg"
+                alt="Image 1"
+                class="rounded-[16px] p-[10px] object-cover border-[1px] border-opacity-25 w-[100px] h-[100px]"
+              />
+              <img
+                src="./public/images/footer/2.jpg"
+                alt="Image 2"
+                class="rounded-[16px] p-[10px] object-cover border-[1px] border-opacity-25 w-[100px] h-[100px]"
+              />
+            </div>
+          </div>
+
+          <hr class="w-full" />
+          <p class="text-[12px] hidden lg:block text-center font-bold py-6">
+            برای استفاده از مطالب دیجی‌کالا، داشتن «هدف غیرتجاری» و ذکر «منبع»
+            کافیست. تمام حقوق اين وب‌سايت نیز برای شرکت نوآوران فن آوازه
+            (فروشگاه آنلاین دیجی‌کالا) است.
+          </p>
+        </div>
+        <div
+          class="lsat_footer_digis lg:mb-0 w-[100%] mx-auto bg-gray-100 flex-col hidden lg:flex lg:justify-center"
+        >
+          <div class="flex w-[100%] justify-center mx-auto flex-nowrap">
+            <img
+              src="./public/images/footer/footer2/1.png"
+              alt=""
+              class="w-[140px] opacity-50 object-contain p-4"
+            />
+            <img
+              src="./public/images/footer/footer2/2.png"
+              alt=""
+              class="w-[140px] opacity-50 object-contain p-4"
+            />
+            <img
+              src="./public/images/footer/footer2/3.png"
+              alt=""
+              class="w-[140px] opacity-50 object-contain p-4"
+            />
+            <img
+              src="./public/images/footer/footer2/4.png"
+              alt=""
+              class="w-[140px] opacity-50 object-contain p-4"
+            />
+            <img
+              src="./public/images/footer/footer2/5.png"
+              alt=""
+              class="w-[140px] opacity-50 object-contain p-4"
+            />
+            <img
+              src="./public/images/footer/footer2/6.png"
+              alt=""
+              class="w-[140px] opacity-50 object-contain p-4"
+            />
+            <img
+              src="./public/images/footer/footer2/7.png"
+              alt=""
+              class="w-[140px] opacity-50 object-contain p-4"
+            />
+            <img
+              src="./public/images/footer/footer2/8.png"
+              alt=""
+              class="w-[140px] opacity-50 object-contain p-4"
+            />
+          </div>
+          <div
+            class="flex w-[100%] justify-center gap-x-[10px] mx-auto flex-nowrap"
+          >
+            <img
+              src="./public/images/footer/footer2/9.png"
+              alt=""
+              class="w-[140px] opacity-50 object-contain p-5"
+            />
+            <img
+              src="./public/images/footer/footer2/10.png"
+              alt=""
+              class="w-[140px] opacity-50 object-contain p-5"
+            />
+            <img
+              src="./public/images/footer/footer2/11.png"
+              alt=""
+              class="w-[140px] opacity-50 object-contain p-5"
+            />
+            <img
+              src="./public/images/footer/footer2/12.png"
+              alt=""
+              class="w-[140px] opacity-50 object-contain p-5"
+            />
+            <img
+              src="./public/images/footer/footer2/13.png"
+              alt=""
+              class="w-[140px] opacity-50 object-contain p-5"
+            />
+            <img
+              src="./public/images/footer/footer2/14.png"
+              alt=""
+              class="w-[140px] opacity-50 object-contain p-5"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- footer end  -->
+      <!-- fixed -->
+      <div
+        class="w-full z-30 fixed bottom-0 md:hidden flex items-center justify-center h-[50px]"
+      >
+        <img src="./public/images/mobile-bar.png" alt="" />
+      </div>
+      <!-- supermarket-fixed-part -->
+      <div
+        class="fixed superFixed  md:bottom-[30px] bottom-[65px] left-[34%] md:left-[20px] p-2  h-[45px] md:h-[55px] bg-[#029A49] rounded-[28px] flex items-center transition-transform duration-1000 ease-in-out transition-discrete  justify-center text-white font-iran-regular z-[2]"
+      >
+        <a
+          href=""
+          class="flex flex-row items-center gap-[3px] text-center text-[10px] md:text-[15px] leading-[8px] md:leading-[20px] text-white"
+        >
+          سوپرمارکت
+          <div
+            class="flex gap-x-2 superHidden transition-transform duration-500 ease-in-out transition-discrete   text-center justify-center items-center mr-[2px] flex-row"
+          >
+            <span
+              class="md:h-[20px] h-[15px] w-[.5px] bg-[#ffff] opacity-50"
+            ></span>
+            <div class="">تنوع بالا و پر تخفیف</div>
+          </div>
+          <img
+            src="./public/images/shopping-basket-svgrepo-com.svg"
+            alt=""
+            class="md:w-[25px] md:h-[28px] w-[15px] h-[18px] mb-[5px]"
+          />
+        </a>
+      </div>
+
+      <!-- support -->
+      <div
+        class="fixed hidden bottom-[30px] right-[48px] w-[47px] h-[47px] bg-[#EF4056] rounded-full md:flex items-center justify-center text-white font-iran-regular z-[2]"
+      >
+        <img src="./public/images/support.svg" alt="" class="" />
+      </div>
+
+      <!--end fixed -->
+    </div>
+    <!--end wrapper -->
+
+    <script src="./swiper/swiper-bundle.min.js"></script>
+    <script type="module" src="./src/main.js"></script>
+    <script src="./src/js/swiper/swiper.js"></script>
+
+    <!--end project -->
+  </body>
+</html>
