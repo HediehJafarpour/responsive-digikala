@@ -1,9 +1,13 @@
 const highSell = async () => {
   try {
-    const response = await fetch("http://localhost:3004/highSell");
+    // دریافت داده‌ها از لینک جدید
+    const response = await fetch("https://hediehjafarpour.github.io/responsive-digikala/db.json");
     if (!response.ok) throw new Error("Failed to fetch data");
 
-    const responseData = await response.json();
+    const jsonData = await response.json();
+
+    // استخراج داده‌های بخش highSell
+    const responseData = jsonData.highSell;
 
     const containers = [
       { id: "highSellSwiper", sellType: "highsell" },
@@ -31,7 +35,7 @@ const highSell = async () => {
         const container = document.createElement("div");
         container.classList.add("flex", "flex-col", "w-[300px]", "gap-2");
 
-        // Add items as rows
+        // افزودن آیتم‌ها به صورت ردیفی
         category.items.forEach((item) => {
           const row = document.createElement("div");
           row.classList.add(
@@ -60,7 +64,8 @@ const highSell = async () => {
         slide.appendChild(container);
         swiperWrapper.appendChild(slide);
       });
-      
+
+      // مقداردهی Swiper
       new Swiper(`#${id}`, {
         navigation: {
           nextEl: ".swiper-button-next",

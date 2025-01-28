@@ -1,10 +1,11 @@
 const amazing = async () => {
   try {
-    const response = await fetch("http://localhost:3004/amazing");
-    const data = await response.json(); // انتظار برای parse داده‌ها
+    // دریافت داده‌ها از لینک جدید
+    const response = await fetch("https://hediehjafarpour.github.io/responsive-digikala/db.json");
+    const jsonData = await response.json();
 
-    // داده‌های بخش "amazing" را استخراج کنید
-    const products = data;
+    // استخراج داده‌های بخش amazing
+    const products = jsonData.amazing;
 
     // بررسی وجود داده‌ها
     if (!products || !Array.isArray(products) || products.length === 0) {
