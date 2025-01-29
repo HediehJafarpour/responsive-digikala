@@ -68,7 +68,7 @@ const amazing = async () => {
         "bg-white",
         "items-start",
         "!w-[162px]",
-        "!h-[290px]"
+        "!h-[250px]"
       );
 
       slide.innerHTML = `

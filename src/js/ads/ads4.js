@@ -10,7 +10,7 @@ const ads4 = async () => {
 
     // تولید HTML برای هر آیتم
     menu = res.map((item) => {
-      return `<img class="block calc-100-minus-60 lg:w-[660px] md:px-0 sm:px-2 mx-auto object-cover h-[264px] cursor-pointer rounded-[16px]" src="${item.link}" alt="">`;
+      return `<img class="block calc-100-minus-60 lg:w-[660px] md:px-0 sm:px-2 mx-auto object-cover cursor-pointer rounded-[16px]" src="${item.link}" alt="">`;
     });
 
     // افزودن محتوای تولید شده به DOM

@@ -18,7 +18,7 @@ const story = async () => {
                     alt="${item.name}"
                   />
                 </div>
-                <div class="text-[11px] h-[30px] mt-[10px] text-[#2b2b2b]">
+                <div class="text-[11px] h-[30px] mt-[5px] text-[#2b2b2b]">
                   <span>${item.name}</span>
                 </div>
               </div>`;

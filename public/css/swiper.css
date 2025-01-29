@@ -122,7 +122,7 @@
 }
 
 .incredible {
-  height: 285px;
+  
   margin: 20px auto;
   padding: 17px 0px;
 
@@ -137,7 +137,9 @@
     background: #fff;
     display: flex;
     width: 162px !important;
-    height: 250px !important;
+
+    
+    padding: 10px;
   }
   .swiper-slide:first-child {
     border-top-right-radius: 10px;
