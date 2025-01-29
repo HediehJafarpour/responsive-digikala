@@ -10,15 +10,15 @@ const story = async () => {
 
     // تولید HTML برای هر آیتم
     menu = res.map((item) => {
-      return `<div class="swiper-slide absolute w-[102px] h-full my-auto flex flex-col h-full  justify-center items-start items-stretch">
-                <div class="h-[80px]">
+      return `<div class="swiper-slide absolute w-[102px]  my-auto flex flex-col   justify-center items-start items-stretch">
+                <div class="">
                   <img
                     class="w-[85px] p-[2px] border-[2px] border-[#8E499C] rounded-[50%]"
                     src="${item.link}"
                     alt="${item.name}"
                   />
                 </div>
-                <div class="text-[11px] h-[30px] mt-[5px] text-[#2b2b2b]">
+                <div class="text-[11px] h-[30px] mt-[10px] text-[#2b2b2b]">
                   <span>${item.name}</span>
                 </div>
               </div>`;
