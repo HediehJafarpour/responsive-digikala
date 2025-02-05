@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/main.css" />
+    <title>فروشگاه اینترنتی دیجی کالا</title>
+</head>
+<body class="flex items-center font-[farsi] justify-center min-h-screen bg-white rtl p-4 sm:p-0" >
+    <div class="w-full sm:w-[390px] bg-white rounded-lg shadow-lg p-6 sm:p-[30px] border border-2 py-10 sm:py-[60px]">
+        <div class="flex justify-center mb-6">
+            <img src="./public/images/login.png" alt="لوگو" class="w-[100px]">
+        </div>
+        <div class="flex w-full items-start justify-start gap-x-2 pr-2   my-4 text-s font-semibold">
+            <h2>ورود</h2>
+            <span class="w-px h-5 bg-black"></span>
+            <h2>ثبت نام</h2>
+        </div>
+        <div class="text-gray-500 w-full text-start mb-4">
+            <h4 class="text-xs m-2">سلام!</h4>
+            <h4 class="text-xs m-2">لطفا شماره موبایل یا ایمیل خود را وارد کنید</h4>
+        </div>
+        <div class="my-4">
+            <input type="text" id="myinput" class="w-full h-12 mt-4 px-4 border border-red-500 text-[12px] rounded-lg focus:outline-none focus:ring-1 focus:ring-red-500" placeholder="شماره موبایل یا ایمیل">
+            <label for="myinput" class="text-red-500 text-xs hidden mt-1" id="mylabel">لطفا این قسمت را خالی نگذارید</label>
+        </div>
+        <div>
+            <a href="#" class="block w-full text-center mt-4 bg-red-500 text-white py-3 rounded-lg leading-[25px] text-sm">ورود</a>
+        </div>
+        <div class="text-[10px] text-gray-700 text-center mt-6 sm:mt-[30px]">
+            ورود شما به معنای پذیرش <a href="#" class="text-blue-500">شرایط دیجی کالا</a> و <a href="#" class="text-blue-500">حریم خصوصی</a> است.
+        </div>
+    </div>
+    <script>
+        document.getElementById("myinput").addEventListener("focus", function() {
+            document.getElementById("mylabel").classList.remove("hidden");
+        });
+        document.getElementById("myinput").addEventListener("blur", function() {
+            if (!this.value) {
+                document.getElementById("mylabel").classList.add("hidden");
+            }
+        });
+    </script>
+</body> 
+</html>

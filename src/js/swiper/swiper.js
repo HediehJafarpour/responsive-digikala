@@ -170,3 +170,21 @@ document.addEventListener("scroll", () => {
     }
   }
 });
+
+
+    document.getElementById("openCityModal").addEventListener("click", function(event) {
+        event.preventDefault();
+        document.getElementById("cityModal").classList.remove("hidden");
+    });
+
+    document.getElementById("closeCityModal").addEventListener("click", function() {
+        document.getElementById("cityModal").classList.add("hidden");
+    });
+
+    // بستن مودال با کلیک بیرون از آن
+    document.getElementById("cityModal").addEventListener("click", function(event) {
+        if (event.target === this) {
+            this.classList.add("hidden");
+        }
+    });
+

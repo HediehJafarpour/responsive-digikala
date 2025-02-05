@@ -165,7 +165,7 @@
           >
             <a
               class="block w-[135px] h-[38px] border-[1px] border-solid border-gray-300 rounded-[7px] text-black text-[11px] flex items-center justify-center gap-x-[5px] font-semibold"
-              href="#"
+              href="./login.html"
             >
               <img src="./public/images/loginlogo.svg" alt="ورود" />
               ورود
@@ -448,12 +448,33 @@
               alt=""
             />
             <div class="header__bottom__location__text">
-              <a
-                href="#"
-                class="block items-center h-inherit px-2.5 text-[#626880] text-[12px]"
-                >لطفا شهر خود را انتخاب کنید</a
-              >
-            </div>
+              <a href="#" id="openCityModal" class="block items-center h-inherit px-2.5 text-[#626880] text-[12px]">
+                  لطفا شهر خود را انتخاب کنید
+              </a>
+          </div>
+          
+          <!-- پنجره انتخاب شهر -->
+          <div id="cityModal" class="hidden fixed inset-0 bg-gray-900 bg-opacity-50 flex items-center justify-center z-50">
+              <div class="w-full max-w-md bg-white rounded-lg shadow-lg overflow-hidden">
+                  <div class="p-4 flex justify-between items-center border-b">
+                      <p class="text-lg font-semibold">انتخاب شهر</p>
+                      <button id="closeCityModal" class="text-gray-500 hover:text-gray-700">
+                          <img src="./public/images/city/svgexport-38.svg" alt="بستن">
+                      </button>
+                  </div>
+                  <div class="p-4 overflow-y-auto max-h-96">
+                      <div class="flex items-center text-blue-500 py-2 border-b cursor-pointer">
+                          <img src="./public/images/city/svgexport-39.svg" alt="مکان یابی" class="w-5 h-5 mr-2">
+                          <h4>مکان یابی خودکار</h4>
+                      </div>
+                      <div class="grid grid-cols-1 city overflow-y-auto gap-2 mt-2">
+                          
+                          <!-- بقیه شهرها را اینجا اضافه کنید -->
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
             <!-- city -->
 
             <!-- end city -->
